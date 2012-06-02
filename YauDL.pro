@@ -1,4 +1,4 @@
-update=Sat 02 Jun 2012 08:12:12 PM CEST
+update=Sat 02 Jun 2012 11:43:46 PM CEST
 version=1
 last_client=pcbnew
 [eeschema]
@@ -100,3 +100,4 @@ LibName8=led
 LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
+LibName12=/home/robert/Arduino/KiCAD/my_parts

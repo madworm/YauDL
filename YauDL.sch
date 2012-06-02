@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 02 Jun 2012 08:13:02 PM CEST
+EESchema Schematic File Version 2  date Sun 03 Jun 2012 12:36:50 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,12 +29,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-EELAYER 43  0
+LIBS:YauDL-cache
+EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
-Title "(Yet) (a)nother (u)seless (D)ummy (Load)"
+Title "(Yet) (a)nother (u)seless (D)ummy (Load) - YauDL"
 Date "2 jun 2012"
 Rev "0.1"
 Comp "2012 - My 2muF - blog.spitzenpfeil.org"

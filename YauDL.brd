@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Sat 02 Jun 2012 08:12:58 PM CEST
+PCBNEW-BOARD Version 1 date Sun 03 Jun 2012 01:19:16 AM CEST
 
 # Created by Pcbnew(2012-jan-04)-stable
 
@@ -9,18 +9,18 @@ Ly 1FFF8001
 EnabledLayers 10F08001
 Links 0
 NoConn 0
-Di 0 0 117000 82670
-Ndraw 0
+Di 37321 13305 76853 52837
+Ndraw 5
 Ntrack 0
 Nzone 0
 BoardThickness 630
-Nmodule 0
+Nmodule 7
 Nnets 1
 $EndGENERAL
 
 $SHEETDESCR
 Sheet A4 11700 8267
-Title "(Yet) (a)nother (u)seless (D)ummy (Load)"
+Title "(Yet) (a)nother (u)seless (D)ummy (Load) - YauDL"
 Date "2 jun 2012"
 Rev "0.1"
 Comp "2012 - My 2muF - blog.spitzenpfeil.org"
@@ -59,7 +59,7 @@ PadSize 600 600
 PadDrill 320
 Pad2MaskClearance 0
 AuxiliaryAxisOrg 0 0
-PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+PcbPlotParams (pcbplotparams (layerselection 284196865) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk true) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory gerber_files/))
 $EndSETUP
 
 $EQUIPOT
@@ -87,6 +87,245 @@ ViaDrill 200
 uViaDia 200
 uViaDrill 50
 $EndNCLASS
+$MODULE TO220_VERT
+Po 64961 27559 900 15 43A66C96 4FCA8F92 ~~
+Li TO220_VERT
+Cd Regulateur TO220 serie LM78xx
+Kw TR TO220
+Sc 4FCA8F92
+AR TO220_VERT
+Op 0 0 0
+T0 -1250 0 600 400 1800 80 N V 21 N "TO220_VERT"
+T1 250 -2500 600 400 900 80 N V 21 N "VAL**"
+DS 750 -2000 1000 -2000 150 21
+DS 1000 -2000 1000 2000 150 21
+DS 1000 2000 750 2000 150 21
+DS -750 -2000 750 -2000 150 21
+DS 750 -2000 750 2000 150 21
+DS 750 2000 -750 2000 150 21
+DS -750 2000 -750 -2000 150 21
+$PAD
+Sh "2" C 700 700 0 0 900
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1000
+$EndPAD
+$PAD
+Sh "3" C 700 700 0 0 900
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" R 700 700 0 0 900
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1000
+$EndPAD
+$SHAPE3D
+Na "to-xxx-packages/to220abs.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 90.000000
+$EndSHAPE3D
+$EndMODULE  TO220_VERT
+$MODULE TO220_VERT
+Po 49213 27559 900 15 43A66C96 4FCA912B ~~
+Li TO220_VERT
+Cd Regulateur TO220 serie LM78xx
+Kw TR TO220
+Sc 4FCA912B
+AR TO220_VERT
+Op 0 0 0
+T0 -1250 0 600 400 1800 80 N V 21 N "TO220_VERT"
+T1 250 -2500 600 400 900 80 N V 21 N "VAL**"
+DS 750 -2000 1000 -2000 150 21
+DS 1000 -2000 1000 2000 150 21
+DS 1000 2000 750 2000 150 21
+DS -750 -2000 750 -2000 150 21
+DS 750 -2000 750 2000 150 21
+DS 750 2000 -750 2000 150 21
+DS -750 2000 -750 -2000 150 21
+$PAD
+Sh "2" C 700 700 0 0 900
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1000
+$EndPAD
+$PAD
+Sh "3" C 700 700 0 0 900
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" R 700 700 0 0 900
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1000
+$EndPAD
+$SHAPE3D
+Na "to-xxx-packages/to220abs.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 90.000000
+$EndSHAPE3D
+$EndMODULE  TO220_VERT
+$MODULE MADW__mounting_hole_3mm
+Po 39370 15354 0 15 49B6EA4D 4FCA93DB ~~
+Li MADW__mounting_hole_3mm
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+Sc 4FCA93DB
+AR MADW__mounting_hole_3mm
+Op 0 0 0
+T0 1376 -236 400 400 900 100 N I 21 N "1PIN-1"
+T1 0 1100 400 400 0 100 N I 21 N "P***"
+DC 0 0 0 -900 150 21
+$PAD
+Sh "1" C 1600 1600 0 0 0
+Dr 1200 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  MADW__mounting_hole_3mm
+$MODULE MADW__mounting_hole_3mm
+Po 74803 15354 0 15 49B6EA4D 4FCA93F2 ~~
+Li MADW__mounting_hole_3mm
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+Sc 4FCA93F2
+AR MADW__mounting_hole_3mm
+Op 0 0 0
+T0 1376 -236 400 400 900 100 N I 21 N "1PIN-1"
+T1 0 1100 400 400 0 100 N I 21 N "P***"
+DC 0 0 0 -900 150 21
+$PAD
+Sh "1" C 1600 1600 0 0 0
+Dr 1200 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  MADW__mounting_hole_3mm
+$MODULE MADW__mounting_hole_3mm
+Po 39370 50787 0 15 49B6EA4D 4FCA9404 ~~
+Li MADW__mounting_hole_3mm
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+Sc 4FCA9404
+AR MADW__mounting_hole_3mm
+Op 0 0 0
+T0 1376 -236 400 400 900 100 N I 21 N "1PIN-1"
+T1 0 1100 400 400 0 100 N I 21 N "P***"
+DC 0 0 0 -900 150 21
+$PAD
+Sh "1" C 1600 1600 0 0 0
+Dr 1200 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  MADW__mounting_hole_3mm
+$MODULE MADW__mounting_hole_3mm
+Po 74803 50787 0 15 49B6EA4D 4FCA94B3 ~~
+Li MADW__mounting_hole_3mm
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+Sc 4FCA94B3
+AR MADW__mounting_hole_3mm
+Op 0 0 0
+T0 1376 -236 400 400 900 100 N I 21 N "1PIN-1"
+T1 0 1100 400 400 0 100 N I 21 N "P***"
+DC 0 0 0 -900 150 21
+$PAD
+Sh "1" C 1600 1600 0 0 0
+Dr 1200 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  MADW__mounting_hole_3mm
+$MODULE MADW__heatsink-TO220-94x45x30
+Po 57087 23228 1800 15 4FCA9EAB 4FCA8F45 ~~
+Li MADW__heatsink-TO220-94x45x30
+Sc 4FCA8F45
+AR MADW__heatsink-TO220-94x45x30
+Op 0 0 0
+T0 0 2559 400 400 1800 80 N V 21 N "MADW__heatsink-TO220-94x45x30"
+T1 0 5118 400 400 1800 80 N V 21 N "VAL**"
+DC 15748 -1890 17323 -1890 80 21
+DC 0 -1890 1575 -1850 80 21
+DC -15748 -1890 -14173 -1929 80 21
+DS 7874 -3150 7677 -2638 100 21
+DS 7677 -2638 8071 -2638 100 21
+DS 8071 -2638 7874 -3150 100 21
+DS -7874 -3150 -8071 -2638 100 21
+DS -8071 -2638 -7677 -2638 100 21
+DS -7677 -2638 -7874 -3150 100 21
+T2 0 3937 400 400 1800 80 N V 21 N "TOPVIEW"
+T2 7874 -1850 400 400 1800 80 N V 21 N "TO-220"
+T2 -7874 -1850 400 400 1800 80 N V 21 N "TO-220"
+DS 18504 -1417 -18504 -1417 100 21
+DS -18504 -2362 18504 -2362 100 21
+DS -18504 1181 18504 1181 100 21
+DS -18504 -3150 18504 -3150 100 21
+DS -18504 -5906 18504 -5906 100 21
+DS 18504 -5906 18504 5906 100 21
+DS 18504 5906 -18504 5906 100 21
+DS -18504 5906 -18504 -5906 100 21
+$PAD
+Sh "1" C 2953 2953 0 0 1800
+Dr 1575 0 0
+At STD N 00F0FFFF
+Ne 0 ""
+Po -15748 -1890
+$EndPAD
+$PAD
+Sh "3" C 2953 2953 0 0 1800
+Dr 1575 0 0
+At STD N 00F0FFFF
+Ne 0 ""
+Po 15748 -1890
+$EndPAD
+$PAD
+Sh "2" C 2953 2953 0 0 1800
+Dr 1575 0 0
+At STD N 00F0FFFF
+Ne 0 ""
+Po 0 -1890
+$EndPAD
+$EndMODULE  MADW__heatsink-TO220-94x45x30
+$TEXTPCB
+Te "- YauDL V0.1 -"
+nl "(Y)et (a)nother (u)seless (D)ummy (L)oad"
+nl "2012 - blog.spitzenpfeil.org"
+Po 57087 14764 400 400 80 0
+De 21 1 0 Normal C
+$EndTEXTPCB
+$DRAWSEGMENT
+Po 0 37402 52756 37402 13386 80
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 76772 52756 37402 52756 80
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 76772 13386 76772 52756 80
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 37402 13386 76772 13386 80
+De 28 0 900 0 0
+$EndDRAWSEGMENT
 $TRACK
 $EndTRACK
 $ZONE
