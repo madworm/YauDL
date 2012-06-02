@@ -1,0 +1,16 @@
+
+Preliminary BOM:
+----------------
+
+* 2x IRLIZ 34N or equivalent (TO-220 FULLPACK)
+* 1x suitable heatsink (FAN? - unregulated, but silent)
+* 1x LM2904 dual opamp, single supply
+* 1x Trimmer to set the gain on the 1st opamp stage
+* 1x 10-turn pot for setting the reference voltage
+* 1x low-drop voltage regulator/reference
+* ?x 4mm banana binding posts
+* 1x on/off switch
+* 1x battery + holder
+* 1x power led + resistor
+* 4x stand-offs or rubber feet
+
