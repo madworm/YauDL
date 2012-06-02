@@ -1,0 +1,94 @@
+PCBNEW-BOARD Version 1 date Sat 02 Jun 2012 08:12:58 PM CEST
+
+# Created by Pcbnew(2012-jan-04)-stable
+
+$GENERAL
+encoding utf-8
+LayerCount 2
+Ly 1FFF8001
+EnabledLayers 10F08001
+Links 0
+NoConn 0
+Di 0 0 117000 82670
+Ndraw 0
+Ntrack 0
+Nzone 0
+BoardThickness 630
+Nmodule 0
+Nnets 1
+$EndGENERAL
+
+$SHEETDESCR
+Sheet A4 11700 8267
+Title "(Yet) (a)nother (u)seless (D)mmy (Load)"
+Date "2 jun 2012"
+Rev "0.1"
+Comp "2012 - My 2muF - blog.spitzenpfeil.org"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndSHEETDESCR
+
+$SETUP
+InternalUnit 0.000100 INCH
+Layers 2
+Layer[0] Back signal
+Layer[15] Front signal
+TrackWidth 60
+TrackClearence 60
+ZoneClearence 200
+TrackMinWidth 60
+DrawSegmWidth 80
+EdgeSegmWidth 80
+ViaSize 250
+ViaDrill 130
+ViaMinSize 250
+ViaMinDrill 130
+MicroViaSize 200
+MicroViaDrill 50
+MicroViasAllowed 0
+MicroViaMinSize 200
+MicroViaMinDrill 50
+TextPcbWidth 80
+TextPcbSize 400 400
+EdgeModWidth 80
+TextModSize 400 400
+TextModWidth 80
+PadSize 600 600
+PadDrill 320
+Pad2MaskClearance 0
+AuxiliaryAxisOrg 0 0
+PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+$EndSETUP
+
+$EQUIPOT
+Na 0 ""
+St ~
+$EndEQUIPOT
+$NCLASS
+Name "Default"
+Desc "This is the default net class."
+Clearance 60
+TrackWidth 60
+ViaDia 250
+ViaDrill 130
+uViaDia 200
+uViaDrill 50
+AddNet ""
+$EndNCLASS
+$NCLASS
+Name "power"
+Desc ""
+Clearance 100
+TrackWidth 80
+ViaDia 350
+ViaDrill 200
+uViaDia 200
+uViaDrill 50
+$EndNCLASS
+$TRACK
+$EndTRACK
+$ZONE
+$EndZONE
+$EndBOARD
