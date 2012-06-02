@@ -34,7 +34,7 @@ EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
-Title "(Yet) (a)nother (u)seless (D)mmy (Load)"
+Title "(Yet) (a)nother (u)seless (D)ummy (Load)"
 Date "2 jun 2012"
 Rev "0.1"
 Comp "2012 - My 2muF - blog.spitzenpfeil.org"
