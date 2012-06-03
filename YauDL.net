@@ -1,0 +1,133 @@
+# EESchema Netlist Version 1.1 created  Sun 03 Jun 2012 03:17:30 AM CEST
+(
+ ( /4FCAABA2 $noname$ C1 CP1
+  ( 1 /V_in )
+  ( 2 GND )
+ )
+ ( /4FCAAB9B $noname$ C2 CP1
+  ( 1 /VCC )
+  ( 2 GND )
+ )
+ ( /4FCAB945 $noname$ D1 DIODESCH
+  ( 1 /drain )
+  ( 2 N-000017 )
+ )
+ ( /4FCAADB8 MADW__heatsink-TO220-94x45x30 K1 HEATSINK
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 ? )
+ )
+ ( /4FCAB49F MADW__mounting_hole_3mm MH1 CONN_1
+  ( 1 ? )
+ )
+ ( /4FCAB4A3 MADW__mounting_hole_3mm MH2 CONN_1
+  ( 1 ? )
+ )
+ ( /4FCAB4A8 MADW__mounting_hole_3mm MH3 CONN_1
+  ( 1 ? )
+ )
+ ( /4FCAB4A6 MADW__mounting_hole_3mm MH4 CONN_1
+  ( 1 ? )
+ )
+ ( /4FCAAEA5 $noname$ P1 CONN_1
+  ( 1 /drain )
+ )
+ ( /4FCAAEA2 $noname$ P2 CONN_1
+  ( 1 GND )
+ )
+ ( /4FCAAD34 TO220_VERT Q1 IRLZ34N
+  ( 1 N-000015 )
+  ( 2 N-000018 )
+  ( 3 N-000017 )
+ )
+ ( /4FCAAD36 TO220_VERT Q2 IRLZ34N
+  ( 1 N-000015 )
+  ( 2 N-000018 )
+  ( 3 N-000017 )
+ )
+ ( /4FCAAC0E R7 R1 R
+  ( 1 N-000018 )
+  ( 2 GND )
+ )
+ ( /4FCAAC19 R7 R2 R
+  ( 1 N-000018 )
+  ( 2 GND )
+ )
+ ( /4FCAAC1C R7 R3 R
+  ( 1 N-000018 )
+  ( 2 GND )
+ )
+ ( /4FCAAC1E R7 R4 R
+  ( 1 N-000018 )
+  ( 2 GND )
+ )
+ ( /4FCAAFF5 $noname$ RV1 100k
+  ( 1 GND )
+  ( 2 N-000016 )
+  ( 3 N-000003 )
+ )
+ ( /4FCAB135 $noname$ RV2 100k
+  ( 1 GND )
+  ( 2 N-000014 )
+  ( 3 /VCC )
+ )
+ ( /4FCAA5D8 SOT223 U1 TS2940
+  ( 1 /V_in )
+  ( 2 GND )
+  ( 3 /VCC )
+ )
+ ( /4FCAA9B0 DIP-8__300_ELL U2 MADW__LM2904
+  ( 1 N-000003 )
+  ( 2 N-000016 )
+  ( 3 N-000018 )
+  ( 4 GND )
+  ( 5 N-000014 )
+  ( 6 N-000003 )
+  ( 7 N-000015 )
+  ( 8 /VCC )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

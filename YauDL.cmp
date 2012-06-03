@@ -1,0 +1,143 @@
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Sun 03 Jun 2012 03:17:30 AM CEST
+
+BeginCmp
+TimeStamp = /4FCAABA2;
+Reference = C1;
+ValeurCmp = CP1;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCAAB9B;
+Reference = C2;
+ValeurCmp = CP1;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCAB945;
+Reference = D1;
+ValeurCmp = DIODESCH;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCAADB8;
+Reference = K1;
+ValeurCmp = HEATSINK;
+IdModule  = MADW__heatsink-TO220-94x45x30;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCAB49F;
+Reference = MH1;
+ValeurCmp = CONN_1;
+IdModule  = MADW__mounting_hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCAB4A3;
+Reference = MH2;
+ValeurCmp = CONN_1;
+IdModule  = MADW__mounting_hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCAB4A8;
+Reference = MH3;
+ValeurCmp = CONN_1;
+IdModule  = MADW__mounting_hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCAB4A6;
+Reference = MH4;
+ValeurCmp = CONN_1;
+IdModule  = MADW__mounting_hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCAAEA5;
+Reference = P1;
+ValeurCmp = CONN_1;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCAAEA2;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCAAD34;
+Reference = Q1;
+ValeurCmp = IRLZ34N;
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCAAD36;
+Reference = Q2;
+ValeurCmp = IRLZ34N;
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCAAC0E;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCAAC19;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = R7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCAAC1C;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = R7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCAAC1E;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = R7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCAAFF5;
+Reference = RV1;
+ValeurCmp = 100k;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCAB135;
+Reference = RV2;
+ValeurCmp = 100k;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCAA5D8;
+Reference = U1;
+ValeurCmp = TS2940;
+IdModule  = SOT223;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCAA9B0;
+Reference = U2;
+ValeurCmp = MADW__LM2904;
+IdModule  = DIP-8__300_ELL;
+EndCmp
+
+EndListe
