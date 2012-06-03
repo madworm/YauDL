@@ -1,107 +1,153 @@
-# EESchema Netlist Version 1.1 created  Sun 03 Jun 2012 03:17:30 AM CEST
+# EESchema Netlist Version 1.1 created  Mon 04 Jun 2012 12:20:42 AM CEST
 (
- ( /4FCAABA2 $noname$ C1 CP1
-  ( 1 /V_in )
-  ( 2 GND )
+ ( /4FCBD6DF $noname  DZ1 VZ10 {Lib=MADW__ZENER_SOT23}
+  (    1 N-000018 )
+  (    3 /drain )
  )
- ( /4FCAAB9B $noname$ C2 CP1
-  ( 1 /VCC )
-  ( 2 GND )
+ ( /4FCBC3A9 $noname  R8 10k_0.1% {Lib=R}
+  (    1 N-000007 )
+  (    2 GND )
  )
- ( /4FCAB945 $noname$ D1 DIODESCH
-  ( 1 /drain )
-  ( 2 N-000017 )
+ ( /4FCBC3A0 $noname  R7 10k_0.1% {Lib=R}
+  (    1 /DMM_read )
+  (    2 N-000007 )
  )
- ( /4FCAADB8 MADW__heatsink-TO220-94x45x30 K1 HEATSINK
-  ( 1 ? )
-  ( 2 ? )
-  ( 3 ? )
+ ( /4FCBC2C8 $noname  T4 Banana_socket {Lib=CONN_1}
+  (    1 GND )
  )
- ( /4FCAB49F MADW__mounting_hole_3mm MH1 CONN_1
-  ( 1 ? )
+ ( /4FCBC2C4 $noname  T3 Banana_socket {Lib=CONN_1}
+  (    1 /DMM_read )
  )
- ( /4FCAB4A3 MADW__mounting_hole_3mm MH2 CONN_1
-  ( 1 ? )
+ ( /4FCBB1F6 $noname  BT1 BATTERY {Lib=BATTERY}
+  (    1 /VCC )
+  (    2 GND )
  )
- ( /4FCAB4A8 MADW__mounting_hole_3mm MH3 CONN_1
-  ( 1 ? )
+ ( /4FCBAB86 $noname  R9 100k {Lib=R}
+  (    1 N-000018 )
+  (    2 GND )
  )
- ( /4FCAB4A6 MADW__mounting_hole_3mm MH4 CONN_1
-  ( 1 ? )
+ ( /4FCBA9E5 $noname  Q4 AO3401 {Lib=MOSFET_P}
+  (    1 N-000018 )
+  (    2 /drain )
+  (    3 /rp_prot )
  )
- ( /4FCAAEA5 $noname$ P1 CONN_1
-  ( 1 /drain )
+ ( /4FCBA9E1 $noname  Q3 AO3401 {Lib=MOSFET_P}
+  (    1 N-000018 )
+  (    2 /drain )
+  (    3 /rp_prot )
  )
- ( /4FCAAEA2 $noname$ P2 CONN_1
-  ( 1 GND )
+ ( /4FCB8F9C $noname  R2 100k {Lib=R}
+  (    1 N-000019 )
+  (    2 GND )
  )
- ( /4FCAAD34 TO220_VERT Q1 IRLZ34N
-  ( 1 N-000015 )
-  ( 2 N-000018 )
-  ( 3 N-000017 )
+ ( /4FCB8E48 $noname  U2 LM2904 {Lib=MADW__LM2904}
+  (    1 /DMM_read )
+  (    2 N-000011 )
+  (    3 /source )
+  (    4 GND )
+  (    5 N-000010 )
+  (    6 N-000007 )
+  (    7 N-000019 )
+  (    8 /VCC )
  )
- ( /4FCAAD36 TO220_VERT Q2 IRLZ34N
-  ( 1 N-000015 )
-  ( 2 N-000018 )
-  ( 3 N-000017 )
+ ( /4FCB8AF6 $noname  R1 0R {Lib=R}
+  (    1 GNDPWR )
+  (    2 GND )
  )
- ( /4FCAAC0E R7 R1 R
-  ( 1 N-000018 )
-  ( 2 GND )
+ ( /4FCB8A82 $noname  U1 AMS1117 {Lib=MADW__AMS1117}
+  (    2 GND )
+  (    3 /VCC )
  )
- ( /4FCAAC19 R7 R2 R
-  ( 1 N-000018 )
-  ( 2 GND )
+ ( /4FCAB4A8 $noname  MH3 CONN_1 {Lib=CONN_1}
+  (    1 ? )
  )
- ( /4FCAAC1C R7 R3 R
-  ( 1 N-000018 )
-  ( 2 GND )
+ ( /4FCAB4A6 $noname  MH4 CONN_1 {Lib=CONN_1}
+  (    1 ? )
  )
- ( /4FCAAC1E R7 R4 R
-  ( 1 N-000018 )
-  ( 2 GND )
+ ( /4FCAB4A3 $noname  MH2 CONN_1 {Lib=CONN_1}
+  (    1 ? )
  )
- ( /4FCAAFF5 $noname$ RV1 100k
-  ( 1 GND )
-  ( 2 N-000016 )
-  ( 3 N-000003 )
+ ( /4FCAB49F $noname  MH1 CONN_1 {Lib=CONN_1}
+  (    1 ? )
  )
- ( /4FCAB135 $noname$ RV2 100k
-  ( 1 GND )
-  ( 2 N-000014 )
-  ( 3 /VCC )
+ ( /4FCAB135 $noname  RV2 100k {Lib=POT}
+  (    1 GND )
+  (    2 N-000010 )
+  (    3 /V_ref )
  )
- ( /4FCAA5D8 SOT223 U1 TS2940
-  ( 1 /V_in )
-  ( 2 GND )
-  ( 3 /VCC )
+ ( /4FCAAFF5 $noname  RV1 100k {Lib=POT}
+  (    1 GND )
+  (    2 N-000011 )
+  (    3 /DMM_read )
  )
- ( /4FCAA9B0 DIP-8__300_ELL U2 MADW__LM2904
-  ( 1 N-000003 )
-  ( 2 N-000016 )
-  ( 3 N-000018 )
-  ( 4 GND )
-  ( 5 N-000014 )
-  ( 6 N-000003 )
-  ( 7 N-000015 )
-  ( 8 /VCC )
+ ( /4FCAAEA5 $noname  T1 Binding_post {Lib=CONN_1}
+  (    1 /rp_prot )
+ )
+ ( /4FCAAEA2 $noname  T2 Binding_post {Lib=CONN_1}
+  (    1 GNDPWR )
+ )
+ ( /4FCAADB8 $noname  K1 HEATSINK {Lib=CONN_3}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+ )
+ ( /4FCAAD36 $noname  Q2 IRLZ34N {Lib=MADW__IRLZ34N}
+  (    1 N-000019 )
+  (    2 /source )
+  (    3 /drain )
+ )
+ ( /4FCAAD34 $noname  Q1 IRLZ34N {Lib=MADW__IRLZ34N}
+  (    1 N-000019 )
+  (    2 /source )
+  (    3 /drain )
+ )
+ ( /4FCAAC1E $noname  R6 0.22R_5% {Lib=R}
+  (    1 /source )
+  (    2 GNDPWR )
+ )
+ ( /4FCAAC1C $noname  R5 0.22R_5% {Lib=R}
+  (    1 /source )
+  (    2 GNDPWR )
+ )
+ ( /4FCAAC19 $noname  R4 0.22R_5% {Lib=R}
+  (    1 /source )
+  (    2 GNDPWR )
+ )
+ ( /4FCAAC0E $noname  R3 0.22R_5% {Lib=R}
+  (    1 /source )
+  (    2 GNDPWR )
+ )
+ ( /4FCAABA2 $noname  C1 10µF {Lib=CP1}
+  (    1 /VCC )
+  (    2 GND )
+ )
+ ( /4FCAAB9B $noname  C2 10µF {Lib=CP1}
+  (    1 /V_ref )
+  (    2 GND )
  )
 )
 *
 { Allowed footprints by component:
-$component C1
- CP*
- SM*
-$endlist
-$component C2
- CP*
- SM*
-$endlist
-$component D1
+$component DZ1
  D?
- S*
+ SO*
+ SM*
 $endlist
-$component R1
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
  R?
  SM0603
  SM0805
@@ -115,7 +161,21 @@ $component R2
  R?-*
  SM1206
 $endlist
-$component R3
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
  R?
  SM0603
  SM0805
@@ -129,5 +189,94 @@ $component R4
  R?-*
  SM1206
 $endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C1
+ CP*
+ SM*
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ RV2 1
+ R8 2
+ T4 1
+ BT1 2
+ C1 2
+ RV1 1
+ C2 2
+ R1 2
+ R9 2
+ U2 4
+ R2 2
+Net 2 "/VCC" "VCC"
+ C1 1
+ U2 8
+ BT1 1
+ U1 3
+Net 7 "" ""
+ U2 6
+ R7 2
+ R8 1
+Net 8 "/DMM_read" "DMM_read"
+ U2 1
+ RV1 3
+ T3 1
+ R7 1
+Net 9 "/rp_prot" "rp_prot"
+ T1 1
+ Q3 3
+ Q4 3
+Net 10 "" ""
+ RV2 2
+ U2 5
+Net 11 "" ""
+ U2 2
+ RV1 2
+Net 15 "/V_ref" "V_ref"
+ C2 1
+ RV2 3
+ U1 2
+Net 16 "GNDPWR" "GNDPWR"
+ R4 2
+ R3 2
+ R6 2
+ R5 2
+ R1 1
+ T2 1
+Net 17 "/drain" "drain"
+ Q3 2
+ Q2 3
+ Q1 3
+ DZ1 3
+ Q4 2
+Net 18 "" ""
+ Q3 1
+ Q4 1
+ DZ1 1
+ R9 1
+Net 19 "" ""
+ R2 1
+ U2 7
+ Q2 1
+ Q1 1
+Net 20 "/source" "source"
+ Q1 2
+ U2 3
+ Q2 2
+ R3 1
+ R4 1
+ R5 1
+ R6 1
+}
+#End
