@@ -1,30 +1,44 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Mon 04 Jun 2012 12:10:39 AM CEST
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Mon 04 Jun 2012 05:09:32 PM CEST
 
 BeginCmp
 TimeStamp = /4FCBB1F6;
 Reference = BT1;
-ValeurCmp = BATTERY;
-IdModule  = ;
+ValeurCmp = 9V;
+IdModule  = MADW__9V_battery_with_clip;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FCAABA2;
 Reference = C1;
 ValeurCmp = 10µF;
-IdModule  = ;
+IdModule  = -C1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FCAAB9B;
 Reference = C2;
 ValeurCmp = 10µF;
-IdModule  = ;
+IdModule  = -C1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCC1D0F;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = -C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCC989D;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = -CHIPLED_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FCBD6DF;
 Reference = DZ1;
-ValeurCmp = VZ10;
+ValeurCmp = BZX84C-10;
 IdModule  = SOT23;
 EndCmp
 
@@ -134,23 +148,16 @@ IdModule  = R5;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FCBC3A0;
-Reference = R7;
-ValeurCmp = 10k_0.1%;
-IdModule  = R5;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FCBC3A9;
-Reference = R8;
-ValeurCmp = 10k_0.1%;
-IdModule  = R5;
-EndCmp
-
-BeginCmp
 TimeStamp = /4FCBAB86;
-Reference = R9;
+Reference = R7;
 ValeurCmp = 100k;
+IdModule  = -R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCC989A;
+Reference = R8;
+ValeurCmp = 1k;
 IdModule  = -R0805;
 EndCmp
 
@@ -158,14 +165,21 @@ BeginCmp
 TimeStamp = /4FCAAFF5;
 Reference = RV1;
 ValeurCmp = 100k;
-IdModule  = -RTRIM64Z;
+IdModule  = MADW__trimmer_pot_vertical;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FCAB135;
 Reference = RV2;
 ValeurCmp = 100k;
-IdModule  = PIN_ARRAY_3X1;
+IdModule  = MADW__vishay_534_pot;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCC9F44;
+Reference = SW1;
+ValeurCmp = SWITCH_INV;
+IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
@@ -197,9 +211,9 @@ IdModule  = MADW__banana_socket_4mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FCB8A82;
+TimeStamp = /4FCC3B47;
 Reference = U1;
-ValeurCmp = AMS1117;
+ValeurCmp = TS2940;
 IdModule  = SOT223;
 EndCmp
 
@@ -207,7 +221,7 @@ BeginCmp
 TimeStamp = /4FCB8E48;
 Reference = U2;
 ValeurCmp = LM2904;
-IdModule  = DIP-8__300_ELL;
+IdModule  = -SO08;
 EndCmp
 
 EndListe
