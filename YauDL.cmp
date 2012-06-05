@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Mon 04 Jun 2012 05:09:32 PM CEST
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Tue 05 Jun 2012 05:56:26 AM CEST
 
 BeginCmp
 TimeStamp = /4FCBB1F6;
@@ -186,28 +186,28 @@ BeginCmp
 TimeStamp = /4FCAAEA5;
 Reference = T1;
 ValeurCmp = Binding_post;
-IdModule  = MADW__binding_post_4mm;
+IdModule  = MADW__binding_post_4mm_6A;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FCAAEA2;
 Reference = T2;
 ValeurCmp = Binding_post;
-IdModule  = MADW__binding_post_4mm;
+IdModule  = MADW__binding_post_4mm_6A;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FCBC2C4;
 Reference = T3;
 ValeurCmp = Banana_socket;
-IdModule  = MADW__banana_socket_4mm;
+IdModule  = MADW__binding_post_4mm_6A;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FCBC2C8;
 Reference = T4;
 ValeurCmp = Banana_socket;
-IdModule  = MADW__banana_socket_4mm;
+IdModule  = MADW__binding_post_4mm_6A;
 EndCmp
 
 BeginCmp

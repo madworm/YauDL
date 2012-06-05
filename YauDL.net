@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Mon 04 Jun 2012 05:09:32 PM CEST
+# EESchema Netlist Version 1.1 created  Tue 05 Jun 2012 05:56:26 AM CEST
 (
  ( /4FCBB1F6 MADW__9V_battery_with_clip BT1 9V
   ( 1 /VCC )
@@ -108,16 +108,16 @@
   ( 2 N-000005 )
   ( 3 ? )
  )
- ( /4FCAAEA5 MADW__binding_post_4mm T1 Binding_post
+ ( /4FCAAEA5 MADW__binding_post_4mm_6A T1 Binding_post
   ( 1 /rp_prot )
  )
- ( /4FCAAEA2 MADW__binding_post_4mm T2 Binding_post
+ ( /4FCAAEA2 MADW__binding_post_4mm_6A T2 Binding_post
   ( 1 GNDPWR )
  )
- ( /4FCBC2C4 MADW__banana_socket_4mm T3 Banana_socket
+ ( /4FCBC2C4 MADW__binding_post_4mm_6A T3 Banana_socket
   ( 1 /DMM_read )
  )
- ( /4FCBC2C8 MADW__banana_socket_4mm T4 Banana_socket
+ ( /4FCBC2C8 MADW__binding_post_4mm_6A T4 Banana_socket
   ( 1 GND )
  )
  ( /4FCC3B47 SOT223 U1 TS2940
