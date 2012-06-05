@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Tue 05 Jun 2012 09:28:14 AM CEST
+Cmp-Mod V01 Genere par PcbNew le Tue 05 Jun 2012 10:12:52 PM CEST
 
 BeginCmp
 TimeStamp = /4FCBB1F6;
@@ -165,7 +165,7 @@ BeginCmp
 TimeStamp = /4FCAAFF5;
 Reference = RV1;
 ValeurCmp = 100k;
-IdModule  = MADW__trimmer_pot_vertical;
+IdModule  = MADW__trimmer_pot_horizontal;
 EndCmp
 
 BeginCmp
@@ -179,7 +179,7 @@ BeginCmp
 TimeStamp = /4FCC9F44;
 Reference = SW1;
 ValeurCmp = SWITCH_INV;
-IdModule  = SIL-3;
+IdModule  = MADW__pcb_side_switch;
 EndCmp
 
 BeginCmp

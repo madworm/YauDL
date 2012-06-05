@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Tue 05 Jun 2012 09:28:14 AM CEST
+# EESchema Netlist Version 1.1 created  Tue 05 Jun 2012 10:12:25 PM CEST
 (
  ( /4FCBB1F6 MADW__9V_battery_with_clip BT1 9V_battery
   ( 1 /VCC )
@@ -93,7 +93,7 @@
   ( 1 N-000008 )
   ( 2 /V_ref )
  )
- ( /4FCAAFF5 MADW__trimmer_pot_vertical RV1 100k
+ ( /4FCAAFF5 MADW__trimmer_pot_horizontal RV1 100k
   ( 1 GND )
   ( 2 N-000012 )
   ( 3 /DMM_read )
@@ -103,7 +103,7 @@
   ( 2 N-000011 )
   ( 3 /V_ref )
  )
- ( /4FCC9F44 SIL-3 SW1 SWITCH_INV
+ ( /4FCC9F44 MADW__pcb_side_switch SW1 SWITCH_INV
   ( 1 GND )
   ( 2 N-000005 )
   ( 3 ? )
