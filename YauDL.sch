@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 04 Jun 2012 05:08:03 PM CEST
+EESchema Schematic File Version 2  date Tue 05 Jun 2012 09:27:59 AM CEST
 LIBS:my_parts
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "(Yet) (a)nother (u)seless (D)ummy (Load) - YauDL"
-Date "4 jun 2012"
+Date "5 jun 2012"
 Rev "0.1"
 Comp "2012 - My 2muF - blog.spitzenpfeil.org"
 Comment1 ""
@@ -510,7 +510,7 @@ L BATTERY BT1
 U 1 1 4FCBB1F6
 P 1250 3500
 F 0 "BT1" H 1250 3700 50  0000 C CNN
-F 1 "9V" H 1250 3310 50  0000 C CNN
+F 1 "9V battery" H 1250 3310 50  0000 C CNN
 	1    1250 3500
 	-1   0    0    1   
 $EndComp

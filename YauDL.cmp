@@ -1,9 +1,9 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Tue 05 Jun 2012 05:56:26 AM CEST
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Tue 05 Jun 2012 09:28:14 AM CEST
 
 BeginCmp
 TimeStamp = /4FCBB1F6;
 Reference = BT1;
-ValeurCmp = 9V;
+ValeurCmp = 9V_battery;
 IdModule  = MADW__9V_battery_with_clip;
 EndCmp
 
@@ -158,7 +158,7 @@ BeginCmp
 TimeStamp = /4FCC989A;
 Reference = R8;
 ValeurCmp = 1k;
-IdModule  = -R0805;
+IdModule  = -R0603;
 EndCmp
 
 BeginCmp
@@ -172,7 +172,7 @@ BeginCmp
 TimeStamp = /4FCAB135;
 Reference = RV2;
 ValeurCmp = 100k;
-IdModule  = MADW__vishay_534_pot;
+IdModule  = MADW__vishay_534_pot_center-hole_hack;
 EndCmp
 
 BeginCmp

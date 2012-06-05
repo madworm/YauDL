@@ -1,6 +1,6 @@
-# EESchema Netlist Version 1.1 created  Tue 05 Jun 2012 05:56:26 AM CEST
+# EESchema Netlist Version 1.1 created  Tue 05 Jun 2012 09:28:14 AM CEST
 (
- ( /4FCBB1F6 MADW__9V_battery_with_clip BT1 9V
+ ( /4FCBB1F6 MADW__9V_battery_with_clip BT1 9V_battery
   ( 1 /VCC )
   ( 2 N-000005 )
  )
@@ -89,7 +89,7 @@
   ( 1 N-000017 )
   ( 2 GNDPWR )
  )
- ( /4FCC989A -R0805 R8 1k
+ ( /4FCC989A -R0603 R8 1k
   ( 1 N-000008 )
   ( 2 /V_ref )
  )
@@ -98,7 +98,7 @@
   ( 2 N-000012 )
   ( 3 /DMM_read )
  )
- ( /4FCAB135 MADW__vishay_534_pot RV2 100k
+ ( /4FCAB135 MADW__vishay_534_pot_center-hole_hack RV2 100k
   ( 1 GND )
   ( 2 N-000011 )
   ( 3 /V_ref )
