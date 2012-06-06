@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 05 Jun 2012 10:08:40 PM CEST
+EESchema Schematic File Version 2  date Wed 06 Jun 2012 06:06:59 PM CEST
 LIBS:my_parts
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "(Yet) (a)nother (u)seless (D)ummy (Load) - YauDL"
-Date "5 jun 2012"
+Date "6 jun 2012"
 Rev "0.1"
 Comp "2012 - My 2muF - blog.spitzenpfeil.org"
 Comment1 ""
@@ -45,6 +45,16 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Notes Line
+	6050 2000 7600 2000
+Wire Wire Line
+	6550 3750 6650 3750
+Wire Wire Line
+	5600 2600 5600 2650
+Wire Wire Line
+	5600 2650 5200 2650
+Wire Wire Line
+	5200 2650 5200 2600
 Connection ~ 6800 1100
 Wire Wire Line
 	6850 1100 6800 1100
@@ -81,21 +91,17 @@ Wire Wire Line
 	2300 1750 2300 1800
 Wire Wire Line
 	2600 1650 2600 2000
-Wire Notes Line
-	6050 2000 7650 2000
 Wire Wire Line
-	9350 2400 9500 2400
+	9300 2400 9450 2400
 Wire Wire Line
 	4450 2000 4450 1600
 Wire Wire Line
-	9700 2700 9700 2650
+	9650 2700 9650 2650
 Wire Wire Line
-	9700 2650 9350 2650
+	9650 2650 9300 2650
 Connection ~ 5400 2650
 Wire Wire Line
 	5400 2650 5400 2850
-Wire Wire Line
-	5700 2650 5100 2650
 Connection ~ 5400 2050
 Connection ~ 7650 1550
 Wire Wire Line
@@ -105,13 +111,13 @@ Wire Wire Line
 Wire Wire Line
 	7050 2850 7050 2700
 Wire Notes Line
-	8850 2000 7700 2000
+	8800 2000 7650 2000
 Wire Notes Line
-	8850 2000 8850 2950
+	8800 2000 8800 2950
 Wire Notes Line
-	8850 2950 7700 2950
+	8800 2950 7650 2950
 Wire Notes Line
-	7700 2950 7700 2000
+	7650 2950 7650 2000
 Connection ~ 6500 2850
 Wire Wire Line
 	6250 2750 6250 2700
@@ -131,13 +137,6 @@ Wire Wire Line
 Wire Wire Line
 	6900 2450 6900 2550
 Wire Wire Line
-	5700 2650 5700 2600
-Connection ~ 5300 2050
-Wire Wire Line
-	5300 2050 5300 2100
-Wire Wire Line
-	5100 2100 5100 2050
-Wire Wire Line
 	8700 850  8600 850 
 Wire Wire Line
 	8600 850  8600 950 
@@ -151,7 +150,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 900  7650 1000
 Wire Wire Line
-	8400 2400 8150 2400
+	8350 2400 8100 2400
 Wire Notes Line
 	550  3100 550  550 
 Wire Wire Line
@@ -212,9 +211,9 @@ Wire Wire Line
 Wire Wire Line
 	5400 950  5400 1200
 Wire Wire Line
-	8150 2650 8500 2650
+	8100 2650 8450 2650
 Wire Wire Line
-	8500 2650 8500 2700
+	8450 2650 8450 2700
 Wire Wire Line
 	700  1600 700  2850
 Wire Wire Line
@@ -223,10 +222,6 @@ Wire Wire Line
 	700  2850 4700 2850
 Wire Wire Line
 	8600 1650 8600 1750
-Wire Wire Line
-	5700 2100 5700 2050
-Wire Wire Line
-	5100 2650 5100 2600
 Wire Wire Line
 	6900 3050 7450 3050
 Wire Wire Line
@@ -257,17 +252,6 @@ Connection ~ 6500 2700
 Wire Wire Line
 	6250 2700 7050 2700
 Wire Wire Line
-	5700 2050 5100 2050
-Wire Wire Line
-	5500 2050 5500 2100
-Connection ~ 5500 2050
-Wire Wire Line
-	5500 2600 5500 2650
-Connection ~ 5500 2650
-Wire Wire Line
-	5300 2600 5300 2650
-Connection ~ 5300 2650
-Wire Wire Line
 	4450 1600 4750 1600
 Wire Wire Line
 	2600 1050 3050 1050
@@ -278,13 +262,13 @@ Wire Wire Line
 Wire Wire Line
 	5400 1800 5400 2050
 Wire Notes Line
-	8900 2850 8900 2000
+	8850 2850 8850 2000
 Wire Notes Line
-	8900 2850 10050 2850
+	8850 2850 10000 2850
 Wire Notes Line
-	10050 2850 10050 2000
+	10000 2850 10000 2000
 Wire Notes Line
-	10050 2000 8900 2000
+	10000 2000 8850 2000
 Connection ~ 2600 1750
 Wire Wire Line
 	2600 2500 2600 2600
@@ -300,12 +284,6 @@ Wire Notes Line
 	9250 1950 9250 550 
 Wire Notes Line
 	9250 550  6050 550 
-Wire Notes Line
-	6050 2000 6050 3450
-Wire Notes Line
-	6050 3450 7650 3450
-Wire Notes Line
-	7650 3450 7650 2000
 Wire Wire Line
 	4450 2500 4450 2600
 Wire Notes Line
@@ -340,6 +318,44 @@ Connection ~ 6800 1200
 Wire Wire Line
 	6800 1000 6800 1400
 Connection ~ 6800 1300
+Wire Wire Line
+	5200 2100 5200 2050
+Wire Wire Line
+	5200 2050 5600 2050
+Wire Wire Line
+	5600 2050 5600 2100
+Wire Wire Line
+	7150 3750 7250 3750
+Wire Notes Line
+	6050 2000 6050 3950
+Wire Notes Line
+	6050 3950 7600 3950
+Wire Notes Line
+	7600 3950 7600 2000
+Text Label 6550 3750 2    60   ~ 0
+rp_prot
+Text Label 7250 3750 0    60   ~ 0
+drain
+Text Notes 6750 3650 0    60   ~ 0
+override
+$Comp
+L CONN_1 JP2
+U 1 1 4FCF5BC9
+P 7000 3750
+F 0 "JP2" H 6950 3850 40  0000 L CNN
+F 1 "CONN_1" H 7000 3805 30  0001 C CNN
+	1    7000 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 JP1
+U 1 1 4FCF5BC5
+P 6800 3750
+F 0 "JP1" H 6750 3650 40  0000 L CNN
+F 1 "CONN_1" H 6800 3805 30  0001 C CNN
+	1    6800 3750
+	1    0    0    -1  
+$EndComp
 $Comp
 L GND #PWR01
 U 1 1 4FCCB359
@@ -457,13 +473,13 @@ F 1 "BZX84C-10" H 6650 3100 40  0000 C CNN
 $EndComp
 Text Label 5400 1950 0    60   ~ 0
 source
-Text Notes 4900 2500 1    60   ~ 0
-(0.6W)
+Text Notes 5100 2450 1    60   ~ 0
+(5W)
 Text Notes 6150 2150 0    60   ~ 0
 DUT reverse polarity protection
-Text Notes 9200 2200 0    60   ~ 0
+Text Notes 9150 2200 0    60   ~ 0
 DMM output
-Text Label 9500 2400 0    60   ~ 0
+Text Label 9450 2400 0    60   ~ 0
 DMM_read
 Text Label 2600 1650 0    60   ~ 0
 DMM_read
@@ -472,28 +488,28 @@ Text Notes 2550 800  0    60   ~ 0
 $Comp
 L GND #PWR05
 U 1 1 4FCBC304
-P 9700 2700
-F 0 "#PWR05" H 9700 2700 30  0001 C CNN
-F 1 "GND" H 9700 2630 30  0001 C CNN
-	1    9700 2700
+P 9650 2700
+F 0 "#PWR05" H 9650 2700 30  0001 C CNN
+F 1 "GND" H 9650 2630 30  0001 C CNN
+	1    9650 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_1 T4
 U 1 1 4FCBC2C8
-P 9200 2650
-F 0 "T4" H 9280 2650 40  0000 L CNN
-F 1 "Banana socket" H 9200 2750 30  0000 C CNN
-	1    9200 2650
+P 9150 2650
+F 0 "T4" H 9230 2650 40  0000 L CNN
+F 1 "Banana socket" H 9150 2750 30  0000 C CNN
+	1    9150 2650
 	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_1 T3
 U 1 1 4FCBC2C4
-P 9200 2400
-F 0 "T3" H 9280 2400 40  0000 L CNN
-F 1 "Banana socket" H 9200 2500 30  0000 C CNN
-	1    9200 2400
+P 9150 2400
+F 0 "T3" H 9230 2400 40  0000 L CNN
+F 1 "Banana socket" H 9150 2500 30  0000 C CNN
+	1    9150 2400
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -594,7 +610,7 @@ F 1 "0R" V 7650 1250 50  0000 C CNN
 	1    7650 1250
 	-1   0    0    1   
 $EndComp
-Text Label 8400 2400 0    60   ~ 0
+Text Label 8350 2400 0    60   ~ 0
 rp_prot
 $Comp
 L CONN_1 MH4
@@ -660,33 +676,33 @@ F 1 "100k" H 2600 2250 50  0000 C CNN
 $EndComp
 Text Label 5300 950  2    60   ~ 0
 drain
-Text Notes 7950 2250 0    60   ~ 0
+Text Notes 7900 2250 0    60   ~ 0
 DUT input
 $Comp
 L GNDPWR #PWR011
 U 1 1 4FCAAEF1
-P 8500 2700
-F 0 "#PWR011" H 8500 2750 40  0001 C CNN
-F 1 "GNDPWR" H 8500 2620 40  0000 C CNN
-	1    8500 2700
+P 8450 2700
+F 0 "#PWR011" H 8450 2750 40  0001 C CNN
+F 1 "GNDPWR" H 8450 2620 40  0000 C CNN
+	1    8450 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_1 T1
 U 1 1 4FCAAEA5
-P 8000 2400
-F 0 "T1" H 8080 2400 40  0000 L CNN
-F 1 "Binding post" H 8000 2500 30  0000 C CNN
-	1    8000 2400
+P 7950 2400
+F 0 "T1" H 8030 2400 40  0000 L CNN
+F 1 "Binding post" H 7950 2500 30  0000 C CNN
+	1    7950 2400
 	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_1 T2
 U 1 1 4FCAAEA2
-P 8000 2650
-F 0 "T2" H 8080 2650 40  0000 L CNN
-F 1 "Binding post" H 8000 2750 30  0000 C CNN
-	1    8000 2650
+P 7950 2650
+F 0 "T2" H 8030 2650 40  0000 L CNN
+F 1 "Binding post" H 7950 2750 30  0000 C CNN
+	1    7950 2650
 	-1   0    0    1   
 $EndComp
 NoConn ~ 6550 1400
@@ -747,40 +763,22 @@ F 1 "GNDPWR" H 5400 2770 40  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
-U 1 1 4FCAAC1E
-P 5700 2350
-F 0 "R6" V 5700 2350 50  0000 C CNN
-F 1 "0.22R 5%" V 5600 2350 50  0000 C CNN
-	1    5700 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R5
-U 1 1 4FCAAC1C
-P 5500 2350
-F 0 "R5" V 5500 2350 50  0000 C CNN
-F 1 "0.22R 5%" V 5400 2350 50  0000 C CNN
-	1    5500 2350
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R4
 U 1 1 4FCAAC19
-P 5300 2350
-F 0 "R4" V 5300 2350 50  0000 C CNN
-F 1 "0.22R 5%" V 5200 2350 50  0000 C CNN
-	1    5300 2350
-	1    0    0    -1  
+P 5600 2350
+F 0 "R4" V 5600 2350 50  0000 C CNN
+F 1 "100mOhm" V 5500 2350 50  0000 C CNN
+	1    5600 2350
+	-1   0    0    1   
 $EndComp
 $Comp
 L R R3
 U 1 1 4FCAAC0E
-P 5100 2350
-F 0 "R3" V 5100 2350 50  0000 C CNN
-F 1 "0.22R 5%" V 5000 2350 50  0000 C CNN
-	1    5100 2350
-	1    0    0    -1  
+P 5200 2350
+F 0 "R3" V 5200 2350 50  0000 C CNN
+F 1 "100mOhm" V 5100 2350 50  0000 C CNN
+	1    5200 2350
+	-1   0    0    1   
 $EndComp
 $Comp
 L CP1 C1

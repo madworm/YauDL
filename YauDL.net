@@ -1,8 +1,8 @@
-# EESchema Netlist Version 1.1 created  Wed 06 Jun 2012 11:03:25 AM CEST
+# EESchema Netlist Version 1.1 created  Wed 06 Jun 2012 06:07:15 PM CEST
 (
  ( /4FCBB1F6 MADW__9V_battery_with_clip BT1 9V_battery
   ( 1 /VCC )
-  ( 2 N-000005 )
+  ( 2 N-000008 )
  )
  ( /4FCAABA2 -C1206 C1 10µF
   ( 1 /VCC )
@@ -14,15 +14,21 @@
  )
  ( /4FCC1D0F -C0805 C3 100nF
   ( 1 /DMM_read )
-  ( 2 N-000012 )
+  ( 2 N-000016 )
  )
  ( /4FCC989D -CHIPLED_0805 D1 LED
-  ( 1 N-000008 )
+  ( 1 N-000009 )
   ( 2 GND )
  )
  ( /4FCBD6DF SOT23 DZ1 BZX84C-10
-  ( 1 N-000017 )
+  ( 1 N-000001 )
   ( 3 /drain )
+ )
+ ( /4FCF5BC5 1pin JP1 CONN_1
+  ( 1 /rp_prot )
+ )
+ ( /4FCF5BC9 1pin JP2 CONN_1
+  ( 1 /drain )
  )
  ( /4FCAADB8 MADW__heatsink-TO220-94x45x30 K1 HEATSINK
   ( 1 ? )
@@ -42,22 +48,22 @@
   ( 1 GND )
  )
  ( /4FCAAD34 TO220_VERT Q1 IRLZ34N
-  ( 1 N-000016 )
+  ( 1 N-000017 )
   ( 2 /source )
   ( 3 /drain )
  )
  ( /4FCAAD36 TO220_VERT Q2 IRLZ34N
-  ( 1 N-000016 )
+  ( 1 N-000017 )
   ( 2 /source )
   ( 3 /drain )
  )
  ( /4FCBA9E1 SOT23 Q3 AO3401
-  ( 1 N-000017 )
+  ( 1 N-000001 )
   ( 2 /drain )
   ( 3 /rp_prot )
  )
  ( /4FCBA9E5 SOT23 Q4 AO3401
-  ( 1 N-000017 )
+  ( 1 N-000001 )
   ( 2 /drain )
   ( 3 /rp_prot )
  )
@@ -66,46 +72,38 @@
   ( 2 GND )
  )
  ( /4FCB8F9C -R0805 R2 100k
-  ( 1 N-000016 )
+  ( 1 N-000017 )
   ( 2 GND )
  )
- ( /4FCAAC0E R5 R3 0.22R_5%
-  ( 1 /source )
-  ( 2 GNDPWR )
+ ( /4FCAAC0E MADW__power_resistor_5W R3 100mOhm
+  ( 1 GNDPWR )
+  ( 2 /source )
  )
- ( /4FCAAC19 R5 R4 0.22R_5%
-  ( 1 /source )
-  ( 2 GNDPWR )
- )
- ( /4FCAAC1C R5 R5 0.22R_5%
-  ( 1 /source )
-  ( 2 GNDPWR )
- )
- ( /4FCAAC1E R5 R6 0.22R_5%
-  ( 1 /source )
-  ( 2 GNDPWR )
+ ( /4FCAAC19 MADW__power_resistor_5W R4 100mOhm
+  ( 1 GNDPWR )
+  ( 2 /source )
  )
  ( /4FCBAB86 -R0805 R7 100k
-  ( 1 N-000017 )
+  ( 1 N-000001 )
   ( 2 GNDPWR )
  )
  ( /4FCC989A -R0603 R8 1k
-  ( 1 N-000008 )
+  ( 1 N-000009 )
   ( 2 /V_ref )
  )
  ( /4FCAAFF5 MADW__trimmer_pot_horizontal RV1 100k
   ( 1 GND )
-  ( 2 N-000012 )
+  ( 2 N-000016 )
   ( 3 /DMM_read )
  )
  ( /4FCAB135 MADW__vishay_534_pot RV2 100k
   ( 1 GND )
-  ( 2 N-000011 )
+  ( 2 N-000012 )
   ( 3 /V_ref )
  )
  ( /4FCC9F44 MADW__pcb_side_switch SW1 SWITCH_INV
   ( 1 GND )
-  ( 2 N-000005 )
+  ( 2 N-000008 )
   ( 3 ? )
  )
  ( /4FCAAEA5 MADW__binding_post_4mm_6A T1 Binding_post
@@ -127,12 +125,12 @@
  )
  ( /4FCB8E48 -SO08 U2 LM2904
   ( 1 /DMM_read )
-  ( 2 N-000012 )
+  ( 2 N-000016 )
   ( 3 /source )
   ( 4 GND )
-  ( 5 N-000011 )
+  ( 5 N-000012 )
   ( 6 /DMM_read )
-  ( 7 N-000016 )
+  ( 7 N-000017 )
   ( 8 /VCC )
  )
 )
@@ -187,20 +185,6 @@ $component R3
  SM1206
 $endlist
 $component R4
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R5
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R6
  R?
  SM0603
  SM0805

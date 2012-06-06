@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le Wed 06 Jun 2012 11:03:40 AM CEST
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Wed 06 Jun 2012 06:07:15 PM CEST
 
 BeginCmp
 TimeStamp = /4FCBB1F6;
@@ -40,6 +40,20 @@ TimeStamp = /4FCBD6DF;
 Reference = DZ1;
 ValeurCmp = BZX84C-10;
 IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCF5BC5;
+Reference = JP1;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCF5BC9;
+Reference = JP2;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
 EndCmp
 
 BeginCmp
@@ -122,29 +136,15 @@ EndCmp
 BeginCmp
 TimeStamp = /4FCAAC0E;
 Reference = R3;
-ValeurCmp = 0.22R_5%;
-IdModule  = R5;
+ValeurCmp = 100mOhm;
+IdModule  = MADW__power_resistor_5W;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FCAAC19;
 Reference = R4;
-ValeurCmp = 0.22R_5%;
-IdModule  = R5;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FCAAC1C;
-Reference = R5;
-ValeurCmp = 0.22R_5%;
-IdModule  = R5;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FCAAC1E;
-Reference = R6;
-ValeurCmp = 0.22R_5%;
-IdModule  = R5;
+ValeurCmp = 100mOhm;
+IdModule  = MADW__power_resistor_5W;
 EndCmp
 
 BeginCmp
