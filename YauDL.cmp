@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le Tue 05 Jun 2012 10:12:52 PM CEST
+Cmp-Mod V01 Genere par PcbNew le Wed 06 Jun 2012 11:03:40 AM CEST
 
 BeginCmp
 TimeStamp = /4FCBB1F6;
@@ -172,7 +172,7 @@ BeginCmp
 TimeStamp = /4FCAB135;
 Reference = RV2;
 ValeurCmp = 100k;
-IdModule  = MADW__vishay_534_pot_center-hole_hack;
+IdModule  = MADW__vishay_534_pot;
 EndCmp
 
 BeginCmp
