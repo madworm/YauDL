@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 06 Jun 2012 06:06:59 PM CEST
+EESchema Schematic File Version 2  date Thu 07 Jun 2012 03:05:46 PM CEST
 LIBS:my_parts
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "(Yet) (a)nother (u)seless (D)ummy (Load) - YauDL"
-Date "6 jun 2012"
+Date "7 jun 2012"
 Rev "0.1"
 Comp "2012 - My 2muF - blog.spitzenpfeil.org"
 Comment1 ""

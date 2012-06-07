@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Wed 06 Jun 2012 06:07:15 PM CEST
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Thu 07 Jun 2012 03:05:44 PM CEST
 
 BeginCmp
 TimeStamp = /4FCBB1F6;
@@ -95,14 +95,14 @@ BeginCmp
 TimeStamp = /4FCAAD34;
 Reference = Q1;
 ValeurCmp = IRLZ34N;
-IdModule  = TO220_VERT;
+IdModule  = MADW__TO220_fullpack_V;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FCAAD36;
 Reference = Q2;
 ValeurCmp = IRLZ34N;
-IdModule  = TO220_VERT;
+IdModule  = MADW__TO220_fullpack_V;
 EndCmp
 
 BeginCmp

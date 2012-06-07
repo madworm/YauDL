@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Wed 06 Jun 2012 06:07:15 PM CEST
+# EESchema Netlist Version 1.1 created  Thu 07 Jun 2012 03:05:44 PM CEST
 (
  ( /4FCBB1F6 MADW__9V_battery_with_clip BT1 9V_battery
   ( 1 /VCC )
@@ -47,15 +47,15 @@
  ( /4FCAB4A6 MADW__mounting_hole_3mm MH4 CONN_1
   ( 1 GND )
  )
- ( /4FCAAD34 TO220_VERT Q1 IRLZ34N
+ ( /4FCAAD34 MADW__TO220_fullpack_V Q1 IRLZ34N
   ( 1 N-000017 )
-  ( 2 /source )
-  ( 3 /drain )
+  ( 2 /drain )
+  ( 3 /source )
  )
- ( /4FCAAD36 TO220_VERT Q2 IRLZ34N
+ ( /4FCAAD36 MADW__TO220_fullpack_V Q2 IRLZ34N
   ( 1 N-000017 )
-  ( 2 /source )
-  ( 3 /drain )
+  ( 2 /drain )
+  ( 3 /source )
  )
  ( /4FCBA9E1 SOT23 Q3 AO3401
   ( 1 N-000001 )
