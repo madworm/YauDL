@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Sat 09 Jun 2012 07:35:49 AM CEST
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Sat 09 Jun 2012 03:08:12 PM CEST
 
 BeginCmp
 TimeStamp = /4FCBB1F6;
@@ -31,6 +31,13 @@ EndCmp
 BeginCmp
 TimeStamp = /4FD2DFA7;
 Reference = C4;
+ValeurCmp = 100nF;
+IdModule  = -C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FD3481F;
+Reference = C5;
 ValeurCmp = 10µF;
 IdModule  = -C1206;
 EndCmp
@@ -127,52 +134,52 @@ IdModule  = SOT23;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FCB8AF6;
+TimeStamp = /4FD34957;
 Reference = R1;
-ValeurCmp = 0R;
+ValeurCmp = 10k;
 IdModule  = -R0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FCB8F9C;
 Reference = R2;
-ValeurCmp = 10k;
+ValeurCmp = 100k;
 IdModule  = -R0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FCAAC0E;
+TimeStamp = /4FCBAB86;
 Reference = R3;
+ValeurCmp = 100k;
+IdModule  = -R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCB8AF6;
+Reference = RGND1;
+ValeurCmp = 0R;
+IdModule  = -R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCC989A;
+Reference = RLED1;
+ValeurCmp = 1k;
+IdModule  = -R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCAAC0E;
+Reference = RP1;
 ValeurCmp = 100mOhm;
 IdModule  = MADW__power_resistor_5W;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FCAAC19;
-Reference = R4;
+Reference = RP2;
 ValeurCmp = 100mOhm;
 IdModule  = MADW__power_resistor_5W;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FCBAB86;
-Reference = R7;
-ValeurCmp = 100k;
-IdModule  = -R0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FCC989A;
-Reference = R8;
-ValeurCmp = 1k;
-IdModule  = -R0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FD2E042;
-Reference = R9;
-ValeurCmp = 1M;
-IdModule  = -R0805;
 EndCmp
 
 BeginCmp
@@ -213,14 +220,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4FCBC2C4;
 Reference = T3;
-ValeurCmp = Banana_socket;
+ValeurCmp = Binding_post;
 IdModule  = MADW__binding_post_4mm_6A;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FCBC2C8;
 Reference = T4;
-ValeurCmp = Banana_socket;
+ValeurCmp = Binding_post;
 IdModule  = MADW__binding_post_4mm_6A;
 EndCmp
 
