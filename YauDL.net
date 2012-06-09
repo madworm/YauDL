@@ -1,8 +1,8 @@
-# EESchema Netlist Version 1.1 created  Thu 07 Jun 2012 03:05:44 PM CEST
+# EESchema Netlist Version 1.1 created  Sat 09 Jun 2012 07:35:49 AM CEST
 (
  ( /4FCBB1F6 MADW__9V_battery_with_clip BT1 9V_battery
   ( 1 /VCC )
-  ( 2 N-000008 )
+  ( 2 N-000004 )
  )
  ( /4FCAABA2 -C1206 C1 10µF
   ( 1 /VCC )
@@ -14,14 +14,18 @@
  )
  ( /4FCC1D0F -C0805 C3 100nF
   ( 1 /DMM_read )
-  ( 2 N-000016 )
+  ( 2 N-000013 )
+ )
+ ( /4FD2DFA7 -C1206 C4 10µF
+  ( 1 N-000017 )
+  ( 2 GND )
  )
  ( /4FCC989D -CHIPLED_0805 D1 LED
-  ( 1 N-000009 )
+  ( 1 N-000011 )
   ( 2 GND )
  )
  ( /4FCBD6DF SOT23 DZ1 BZX84C-10
-  ( 1 N-000001 )
+  ( 1 N-000006 )
   ( 3 /drain )
  )
  ( /4FCF5BC5 1pin JP1 CONN_1
@@ -58,12 +62,12 @@
   ( 3 /source )
  )
  ( /4FCBA9E1 SOT23 Q3 AO3401
-  ( 1 N-000001 )
+  ( 1 N-000006 )
   ( 2 /drain )
   ( 3 /rp_prot )
  )
  ( /4FCBA9E5 SOT23 Q4 AO3401
-  ( 1 N-000001 )
+  ( 1 N-000006 )
   ( 2 /drain )
   ( 3 /rp_prot )
  )
@@ -71,9 +75,9 @@
   ( 1 GNDPWR )
   ( 2 GND )
  )
- ( /4FCB8F9C -R0805 R2 100k
-  ( 1 N-000017 )
-  ( 2 GND )
+ ( /4FCB8F9C -R0805 R2 10k
+  ( 1 N-000008 )
+  ( 2 N-000017 )
  )
  ( /4FCAAC0E MADW__power_resistor_5W R3 100mOhm
   ( 1 GNDPWR )
@@ -84,26 +88,30 @@
   ( 2 /source )
  )
  ( /4FCBAB86 -R0805 R7 100k
-  ( 1 N-000001 )
+  ( 1 N-000006 )
   ( 2 GNDPWR )
  )
  ( /4FCC989A -R0603 R8 1k
-  ( 1 N-000009 )
+  ( 1 N-000011 )
   ( 2 /V_ref )
+ )
+ ( /4FD2E042 -R0805 R9 1M
+  ( 1 N-000017 )
+  ( 2 GND )
  )
  ( /4FCAAFF5 MADW__trimmer_pot_horizontal RV1 100k
   ( 1 GND )
-  ( 2 N-000016 )
+  ( 2 N-000013 )
   ( 3 /DMM_read )
  )
  ( /4FCAB135 MADW__vishay_534_pot RV2 100k
   ( 1 GND )
-  ( 2 N-000012 )
+  ( 2 N-000018 )
   ( 3 /V_ref )
  )
  ( /4FCC9F44 MADW__pcb_side_switch SW1 SWITCH_INV
   ( 1 GND )
-  ( 2 N-000008 )
+  ( 2 N-000004 )
   ( 3 ? )
  )
  ( /4FCAAEA5 MADW__binding_post_4mm_6A T1 Binding_post
@@ -125,12 +133,12 @@
  )
  ( /4FCB8E48 -SO08 U2 LM2904
   ( 1 /DMM_read )
-  ( 2 N-000016 )
+  ( 2 N-000013 )
   ( 3 /source )
   ( 4 GND )
-  ( 5 N-000012 )
+  ( 5 N-000018 )
   ( 6 /DMM_read )
-  ( 7 N-000017 )
+  ( 7 N-000008 )
   ( 8 /VCC )
  )
 )
@@ -145,6 +153,11 @@ $component C2
  SM*
 $endlist
 $component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
  SM*
  C?
  C1-1
@@ -199,6 +212,13 @@ $component R7
  SM1206
 $endlist
 $component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
  R?
  SM0603
  SM0805
