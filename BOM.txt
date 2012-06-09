@@ -26,7 +26,7 @@ V0.1 BOM:
 V0.2 BOM:
 ---------
 
-added an RC low-pass filter
+added another BW limiting cap. and a resistor
 
-* 1x 10µF ceramic capacitor, 1206
+* 1x 100nF ceramic capacitor, 0805
 * 1x 10k resistor, 0805
