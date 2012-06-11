@@ -3,6 +3,8 @@ YauDL
 
 LAYOUT FILES: (Y)et (a)nother (u)seless (D)ummy (L)oad
 
+[![YauDL-Front](https://github.com/madworm/YauDL/raw/master/gerber_files/PNGs/YauDL-Front.png)](https://github.com/madworm/YauDL/blob/master/gerber_files/PNGs/YauDL-Front.png)
+
 For testing various projects I desire an adjustable constant current sink.
 Nothing fancy, not microcontroller controlled, not 'constant power', maybe
 with a display, maybe just use a DMM for that. BUT I need AMPS!
