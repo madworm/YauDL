@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 09 Jun 2012 03:06:28 PM CEST
+EESchema Schematic File Version 2  date Mon 11 Jun 2012 12:15:04 PM CEST
 LIBS:my_parts
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "(Yet) (a)nother (u)seless (D)ummy (Load) - YauDL"
-Date "9 jun 2012"
+Date "11 jun 2012"
 Rev "0.2"
 Comp "2012 - My 2muF - blog.spitzenpfeil.org"
 Comment1 ""
@@ -776,7 +776,7 @@ L MADW__IRLZ34N Q2
 U 1 1 4FCAAD36
 P 6050 1600
 F 0 "Q2" H 6250 1890 60  0000 R CNN
-F 1 "IRLZ34N" H 6250 1500 60  0000 R CNN
+F 1 "IRL3803" H 6250 1500 60  0000 R CNN
 	1    6050 1600
 	1    0    0    -1  
 $EndComp
@@ -785,7 +785,7 @@ L MADW__IRLZ34N Q1
 U 1 1 4FCAAD34
 P 5350 1600
 F 0 "Q1" H 5550 1890 60  0000 R CNN
-F 1 "IRLZ34N" H 5550 1500 60  0000 R CNN
+F 1 "IRL3803" H 5550 1500 60  0000 R CNN
 	1    5350 1600
 	1    0    0    -1  
 $EndComp
