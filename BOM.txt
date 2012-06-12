@@ -1,4 +1,4 @@
-V0.21 BOM:
+V0.2 BOM:
 ---------
 
 * 2x IRL3803, N-CH MOSFET, TO-220
