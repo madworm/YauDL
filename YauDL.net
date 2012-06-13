@@ -1,8 +1,8 @@
-# EESchema Netlist Version 1.1 created  Mon 11 Jun 2012 12:15:01 PM CEST
+# EESchema Netlist Version 1.1 created  Wed 13 Jun 2012 07:04:35 PM CEST
 (
  ( /4FCBB1F6 MADW__9V_battery_with_clip BT1 9V_battery
   ( 1 /VCC )
-  ( 2 N-000017 )
+  ( 2 N-000005 )
  )
  ( /4FCAABA2 -C1206 C1 10µF
   ( 1 /VCC )
@@ -13,19 +13,27 @@
   ( 2 GND )
  )
  ( /4FCC1D0F -C0805 C3 100nF
-  ( 1 N-000003 )
+  ( 1 N-000016 )
   ( 2 /DMM_read )
  )
  ( /4FD2DFA7 -C0805 C4 100nF
-  ( 1 N-000006 )
-  ( 2 N-000011 )
+  ( 1 N-000009 )
+  ( 2 N-000010 )
  )
  ( /4FD3481F -C1206 C5 10µF
   ( 1 /VCC )
   ( 2 GND )
  )
+ ( /4FD8C77E -C1206 C6 10µF
+  ( 1 /rp_prot )
+  ( 2 GNDPWR )
+ )
+ ( /4FD8C782 -C1206 C7 10µF
+  ( 1 /rp_prot )
+  ( 2 GNDPWR )
+ )
  ( /4FCC989D -CHIPLED_0805 D1 LED
-  ( 1 N-000010 )
+  ( 1 N-000002 )
   ( 2 GND )
  )
  ( /4FCBD6DF SOT23 DZ1 BZX84C-10
@@ -56,12 +64,12 @@
   ( 1 GND )
  )
  ( /4FCAAD34 MADW__TO220_V Q1 IRL3803
-  ( 1 N-000011 )
+  ( 1 N-000010 )
   ( 2 /drain )
   ( 3 /source )
  )
  ( /4FCAAD36 MADW__TO220_V Q2 IRL3803
-  ( 1 N-000011 )
+  ( 1 N-000010 )
   ( 2 /drain )
   ( 3 /source )
  )
@@ -77,10 +85,10 @@
  )
  ( /4FD34957 -R0805 R1 10k
   ( 1 /DMM_read )
-  ( 2 N-000006 )
+  ( 2 N-000009 )
  )
  ( /4FCB8F9C -R0805 R2 100k
-  ( 1 N-000011 )
+  ( 1 N-000010 )
   ( 2 GND )
  )
  ( /4FCBAB86 -R0805 R3 100k
@@ -92,7 +100,7 @@
   ( 2 GND )
  )
  ( /4FCC989A -R0603 RLED1 1k
-  ( 1 N-000010 )
+  ( 1 N-000002 )
   ( 2 /V_ref )
  )
  ( /4FCAAC0E MADW__power_resistor_5W RP1 100mOhm
@@ -105,17 +113,17 @@
  )
  ( /4FCAAFF5 MADW__trimmer_pot_horizontal RV1 100k
   ( 1 GND )
-  ( 2 N-000003 )
+  ( 2 N-000016 )
   ( 3 /DMM_read )
  )
  ( /4FCAB135 MADW__vishay_534_pot RV2 100k
   ( 1 GND )
-  ( 2 N-000005 )
+  ( 2 N-000017 )
   ( 3 /V_ref )
  )
  ( /4FCC9F44 MADW__pcb_side_switch SW1 SWITCH_INV
   ( 1 GND )
-  ( 2 N-000017 )
+  ( 2 N-000005 )
   ( 3 ? )
  )
  ( /4FCAAEA5 MADW__binding_post_4mm_6A T1 Binding_post
@@ -137,12 +145,12 @@
  )
  ( /4FCB8E48 -SO08 U2 LM2904
   ( 1 /DMM_read )
-  ( 2 N-000003 )
+  ( 2 N-000016 )
   ( 3 /source )
   ( 4 GND )
-  ( 5 N-000005 )
-  ( 6 N-000006 )
-  ( 7 N-000011 )
+  ( 5 N-000017 )
+  ( 6 N-000009 )
+  ( 7 N-000010 )
   ( 8 /VCC )
  )
 )
@@ -167,6 +175,16 @@ $component C4
  C1-1
 $endlist
 $component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
  SM*
  C?
  C1-1

@@ -17,7 +17,7 @@ V0.2 BOM:
 * 2x 100k resistor, 0805
 
 * 2x 100nF ceramic capacitor, 0805
-* 3x 10µF ceramic capacitor, 1206
+* 5x 10µF ceramic capacitor, 1206
 
 * 4x metal hex stand-off, 25mm, M3 mounting hole
 * 1x 9V battery clip with leads
