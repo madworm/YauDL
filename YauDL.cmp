@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Wed 13 Jun 2012 07:04:35 PM CEST
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Fri 15 Jun 2012 04:56:13 PM CEST
 
 BeginCmp
 TimeStamp = /4FCBB1F6;
@@ -178,7 +178,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4FCC989A;
 Reference = RLED1;
-ValeurCmp = 1k;
+ValeurCmp = 470R;
 IdModule  = -R0603;
 EndCmp
 

@@ -1,0 +1,25 @@
+V0.1:
+-----
+
+(3)	TS2940CW50 - Voltage regulator unstable.
+
+	Change LED resistor to 470Ohm to draw more current.
+	This removes all output voltage oscillations.	
+
+
+(2)	TS2940CW50 - Voltage regulator unstable.
+
+	C1 and C2 MUST be tantalum capacitors!	
+
+
+(1)	TS2940CW50 - Voltage regulator unstable.
+
+	Don't populate C2 (output capacitor).
+	
+	The datasheet mentions a minimum load of 10mA for the thing
+	to be stable. I couldn't get rid of massive output voltage oscillations
+	as long as C2 was populated, although I added a 100Ohm resistor to
+	draw about 50mA. Tried a different regulator, different cap as well.
+	I've never experienced such misbehaviour before. It worked just fine
+	in previous projects...
+ 
