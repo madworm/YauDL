@@ -2,7 +2,7 @@ V0.2 BOM:
 ---------
 
 * 2x IRL3803, N-CH MOSFET, TO-220
-* 2x Thermal pad / mica insulation
+* 1x Thermal goop for the power MOSFETs. Silicone pads suck
 * 2x AO3401, P-CH MOSFET, SOT23
 * 1x LM2904 dual opamp, SO-8
 * 1x TS2940, 5V low drop regulator, SOT223
