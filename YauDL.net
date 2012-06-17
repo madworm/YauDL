@@ -1,8 +1,8 @@
-# EESchema Netlist Version 1.1 created  Fri 15 Jun 2012 04:56:13 PM CEST
+# EESchema Netlist Version 1.1 created  Sun 17 Jun 2012 06:02:54 PM CEST
 (
  ( /4FCBB1F6 MADW__9V_battery_with_clip BT1 9V_battery
-  ( 1 /VCC )
-  ( 2 N-000009 )
+  ( 1 N-000013 )
+  ( 2 GND )
  )
  ( /4FCAABA2 -C1206 C1 10µF
   ( 1 /VCC )
@@ -13,12 +13,12 @@
   ( 2 GND )
  )
  ( /4FCC1D0F -C0805 C3 100nF
-  ( 1 N-000018 )
+  ( 1 N-000016 )
   ( 2 /DMM_read )
  )
  ( /4FD2DFA7 -C0805 C4 100nF
-  ( 1 N-000005 )
-  ( 2 N-000016 )
+  ( 1 N-000007 )
+  ( 2 N-000017 )
  )
  ( /4FD3481F -C1206 C5 10µF
   ( 1 /VCC )
@@ -33,23 +33,22 @@
   ( 2 GNDPWR )
  )
  ( /4FCC989D -CHIPLED_0805 D1 LED
-  ( 1 N-000002 )
+  ( 1 N-000001 )
   ( 2 GND )
  )
  ( /4FCBD6DF SOT23 DZ1 BZX84C-10
-  ( 1 N-000017 )
+  ( 1 N-000015 )
   ( 3 /drain )
+ )
+ ( /4FDDFB73 MADW__heatsink-TO220-94x45x30_2_m-holes HS1 HEATSINK
+  ( 1 ? )
+  ( 2 ? )
  )
  ( /4FCF5BC5 1pin JP1 CONN_1
   ( 1 /rp_prot )
  )
  ( /4FCF5BC9 1pin JP2 CONN_1
   ( 1 /drain )
- )
- ( /4FCAADB8 MADW__heatsink-TO220-94x45x30 K1 HEATSINK
-  ( 1 ? )
-  ( 2 ? )
-  ( 3 ? )
  )
  ( /4FCAB49F MADW__mounting_hole_3mm MH1 CONN_1
   ( 1 GND )
@@ -64,35 +63,35 @@
   ( 1 GND )
  )
  ( /4FCAAD34 MADW__TO220_V Q1 IRL3803
-  ( 1 N-000016 )
+  ( 1 N-000017 )
   ( 2 /drain )
   ( 3 /source )
  )
  ( /4FCAAD36 MADW__TO220_V Q2 IRL3803
-  ( 1 N-000016 )
+  ( 1 N-000017 )
   ( 2 /drain )
   ( 3 /source )
  )
  ( /4FCBA9E1 SOT23 Q3 AO3401
-  ( 1 N-000017 )
+  ( 1 N-000015 )
   ( 2 /drain )
   ( 3 /rp_prot )
  )
  ( /4FCBA9E5 SOT23 Q4 AO3401
-  ( 1 N-000017 )
+  ( 1 N-000015 )
   ( 2 /drain )
   ( 3 /rp_prot )
  )
  ( /4FD34957 -R0805 R1 10k
   ( 1 /DMM_read )
-  ( 2 N-000005 )
+  ( 2 N-000007 )
  )
  ( /4FCB8F9C -R0805 R2 100k
-  ( 1 N-000016 )
+  ( 1 N-000017 )
   ( 2 GND )
  )
  ( /4FCBAB86 -R0805 R3 100k
-  ( 1 N-000017 )
+  ( 1 N-000015 )
   ( 2 GNDPWR )
  )
  ( /4FCB8AF6 -R0603 RGND1 0R
@@ -100,7 +99,7 @@
   ( 2 GND )
  )
  ( /4FCC989A -R0603 RLED1 470R
-  ( 1 N-000002 )
+  ( 1 N-000001 )
   ( 2 /V_ref )
  )
  ( /4FCAAC0E MADW__power_resistor_5W RP1 100mOhm
@@ -113,17 +112,17 @@
  )
  ( /4FCAAFF5 MADW__trimmer_pot_horizontal RV1 100k
   ( 1 GND )
-  ( 2 N-000018 )
+  ( 2 N-000016 )
   ( 3 /DMM_read )
  )
  ( /4FCAB135 MADW__vishay_534_pot RV2 100k
   ( 1 GND )
-  ( 2 N-000006 )
+  ( 2 N-000005 )
   ( 3 /V_ref )
  )
  ( /4FCC9F44 MADW__pcb_side_switch SW1 SWITCH_INV
-  ( 1 GND )
-  ( 2 N-000009 )
+  ( 1 /VCC )
+  ( 2 N-000013 )
   ( 3 ? )
  )
  ( /4FCAAEA5 MADW__binding_post_4mm_6A T1 Binding_post
@@ -145,12 +144,12 @@
  )
  ( /4FCB8E48 -SO08 U2 LM2904
   ( 1 /DMM_read )
-  ( 2 N-000018 )
+  ( 2 N-000016 )
   ( 3 /source )
   ( 4 GND )
-  ( 5 N-000006 )
-  ( 6 N-000005 )
-  ( 7 N-000016 )
+  ( 5 N-000005 )
+  ( 6 N-000007 )
+  ( 7 N-000017 )
   ( 8 /VCC )
  )
 )
