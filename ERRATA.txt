@@ -1,6 +1,15 @@
 V0.1:
 -----
 
+(5)	If you require high current with input voltages below 5V,
+	the reverse polarity protection tends to heat up a lot.
+
+	DON'T populate: Q3, Q4, R7, DZ1
+
+	Place a 2mm jumper wire between JP1 and JP2 to override.
+	This will avoid the magic blue smoke.
+
+
 (4)	Added 2x 47µF electrolytic capacitors across the DUT
 	terminals (back to back --> non polarized).
 
