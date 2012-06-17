@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Sun 17 Jun 2012 02:32:01 PM CEST
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Fri 15 Jun 2012 04:56:13 PM CEST
 
 BeginCmp
 TimeStamp = /4FCBB1F6;
@@ -57,20 +57,6 @@ IdModule  = -C1206;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FDDBD86;
-Reference = C8;
-ValeurCmp = 10µF;
-IdModule  = -C1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FDDBDC8;
-Reference = C9;
-ValeurCmp = 10µF;
-IdModule  = -C1206;
-EndCmp
-
-BeginCmp
 TimeStamp = /4FCC989D;
 Reference = D1;
 ValeurCmp = LED;
@@ -99,10 +85,10 @@ IdModule  = 1pin;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FDDC7F3;
+TimeStamp = /4FCAADB8;
 Reference = K1;
 ValeurCmp = HEATSINK;
-IdModule  = MADW__heatsink-TO220-94x45x30_2_m-holes;
+IdModule  = MADW__heatsink-TO220-94x45x30;
 EndCmp
 
 BeginCmp
@@ -271,13 +257,6 @@ TimeStamp = /4FCB8E48;
 Reference = U2;
 ValeurCmp = LM2904;
 IdModule  = -SO08;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FDDBD08;
-Reference = U3;
-ValeurCmp = TCM829;
-IdModule  = SOT23-5;
 EndCmp
 
 EndListe
