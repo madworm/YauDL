@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 17 Jun 2012 03:15:09 PM CEST
+EESchema Schematic File Version 2  date Sun 17 Jun 2012 02:31:40 PM CEST
 LIBS:my_parts
 LIBS:power
 LIBS:device
@@ -45,18 +45,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Notes Line
-	9100 5050 6600 5050
-Wire Notes Line
-	9100 5050 9100 4000
-Wire Notes Line
-	9100 4000 6600 4000
-Wire Wire Line
-	8500 4350 8700 4350
-Wire Wire Line
-	8500 4350 8500 4550
-Wire Wire Line
-	8500 4550 8050 4550
+$Comp
+L CONN_2 K1
+U 1 1 4FDDC7F3
+P 7000 1050
+F 0 "K1" V 6950 1050 40  0000 C CNN
+F 1 "HEATSINK" V 7050 1050 40  0000 C CNN
+	1    7000 1050
+	0    -1   -1   0   
+$EndComp
 Connection ~ 8200 1550
 Wire Wire Line
 	8200 1550 8450 1550
@@ -385,9 +382,13 @@ Wire Wire Line
 	6800 3450 6800 3250
 Wire Wire Line
 	8250 4350 8050 4350
+Wire Wire Line
+	8250 4750 8050 4750
 Connection ~ 8150 4750
 Wire Wire Line
 	7000 4350 6900 4350
+Wire Wire Line
+	8050 4550 8550 4550
 Wire Wire Line
 	700  3450 650  3450
 Wire Wire Line
@@ -395,7 +396,13 @@ Wire Wire Line
 Wire Wire Line
 	650  3900 950  3900
 Wire Notes Line
-	6600 4000 6600 5050
+	6600 5050 6600 4000
+Wire Notes Line
+	6600 5050 8900 5050
+Wire Notes Line
+	8900 5050 8900 4000
+Wire Notes Line
+	8900 4000 6600 4000
 Wire Wire Line
 	2500 3450 2500 3650
 Wire Notes Line
@@ -413,51 +420,6 @@ Wire Wire Line
 	8200 1500 8200 1600
 Wire Wire Line
 	6000 2650 6000 2850
-Wire Wire Line
-	8700 4750 8050 4750
-Connection ~ 8250 4750
-Wire Wire Line
-	8700 4350 8700 4250
-Text Notes 8750 4350 0    60   ~ 0
-(-5V)
-Text Label 8700 4250 0    60   ~ 0
-V_neg
-$Comp
-L CP1 C10
-U 1 1 4FDDD7FE
-P 8700 4550
-F 0 "C10" H 8400 4650 50  0000 L CNN
-F 1 "3.3µF" H 8350 4450 50  0000 L CNN
-	1    8700 4550
-	-1   0    0    1   
-$EndComp
-$Comp
-L CP1 C9
-U 1 1 4FDDD7BB
-P 8250 4550
-F 0 "C9" H 8300 4650 50  0000 L CNN
-F 1 "3.3µF" H 8300 4450 50  0000 L CNN
-	1    8250 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP1 C8
-U 1 1 4FDDD785
-P 6900 4550
-F 0 "C8" H 6700 4650 50  0000 L CNN
-F 1 "3.3µF" H 6650 4450 50  0000 L CNN
-	1    6900 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_2 K1
-U 1 1 4FDDC7F3
-P 7000 1050
-F 0 "K1" V 6950 1050 40  0000 C CNN
-F 1 "HEATSINK" V 7050 1050 40  0000 C CNN
-	1    7000 1050
-	0    -1   -1   0   
-$EndComp
 $Comp
 L PWR_FLAG #FLG01
 U 1 1 4FDDC5D0
@@ -469,6 +431,8 @@ F 1 "PWR_FLAG" H 8450 1730 30  0000 C CNN
 $EndComp
 Text Label 1800 3300 0    60   ~ 0
 VCC
+Text Notes 8550 4400 0    60   ~ 0
+(-5V)
 $Comp
 L SWITCH_INV SW1
 U 1 1 4FCC9F44
@@ -476,6 +440,26 @@ P 1200 3450
 F 0 "SW1" H 1000 3600 50  0000 C CNN
 F 1 "SWITCH_INV" H 1050 3300 50  0000 C CNN
 	1    1200 3450
+	1    0    0    -1  
+$EndComp
+Text Label 8550 4550 0    60   ~ 0
+V_neg
+$Comp
+L C C9
+U 1 1 4FDDBDC8
+P 8250 4550
+F 0 "C9" H 8300 4650 50  0000 L CNN
+F 1 "10µF" H 8300 4450 50  0000 L CNN
+	1    8250 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C8
+U 1 1 4FDDBD86
+P 6900 4550
+F 0 "C8" H 6750 4650 50  0000 L CNN
+F 1 "10µF" H 6650 4450 50  0000 L CNN
+	1    6900 4550
 	1    0    0    -1  
 $EndComp
 $Comp

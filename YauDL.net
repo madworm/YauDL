@@ -1,7 +1,7 @@
-# EESchema Netlist Version 1.1 created  Sun 17 Jun 2012 03:16:03 PM CEST
+# EESchema Netlist Version 1.1 created  Sun 17 Jun 2012 02:32:01 PM CEST
 (
  ( /4FCBB1F6 MADW__9V_battery_with_clip BT1 9V_battery
-  ( 1 N-000009 )
+  ( 1 N-000011 )
   ( 2 GND )
  )
  ( /4FCAABA2 -C1206 C1 10µF
@@ -13,12 +13,12 @@
   ( 2 GND )
  )
  ( /4FCC1D0F -C0805 C3 100nF
-  ( 1 N-000019 )
+  ( 1 N-000007 )
   ( 2 /DMM_read )
  )
  ( /4FD2DFA7 -C0805 C4 100nF
-  ( 1 N-000014 )
-  ( 2 N-000017 )
+  ( 1 N-000016 )
+  ( 2 N-000006 )
  )
  ( /4FD3481F -C1206 C5 10µF
   ( 1 /VCC )
@@ -32,20 +32,16 @@
   ( 1 /rp_prot )
   ( 2 GNDPWR )
  )
- ( /4FDDD785 -C1206 C8 3.3µF
-  ( 1 N-000008 )
-  ( 2 N-000010 )
+ ( /4FDDBD86 -C1206 C8 10µF
+  ( 1 N-000012 )
+  ( 2 N-000013 )
  )
- ( /4FDDD7BB -C1206 C9 3.3µF
+ ( /4FDDBDC8 -C1206 C9 10µF
   ( 1 /V_ref )
   ( 2 GND )
  )
- ( /4FDDD7FE -C1206 C10 3.3µF
-  ( 1 GND )
-  ( 2 /V_neg )
- )
  ( /4FCC989D -CHIPLED_0805 D1 LED
-  ( 1 N-000005 )
+  ( 1 N-000003 )
   ( 2 GND )
  )
  ( /4FCBD6DF SOT23 DZ1 BZX84C-10
@@ -75,12 +71,12 @@
   ( 1 GND )
  )
  ( /4FCAAD34 MADW__TO220_V Q1 IRL3803
-  ( 1 N-000017 )
+  ( 1 N-000006 )
   ( 2 /drain )
   ( 3 /source )
  )
  ( /4FCAAD36 MADW__TO220_V Q2 IRL3803
-  ( 1 N-000017 )
+  ( 1 N-000006 )
   ( 2 /drain )
   ( 3 /source )
  )
@@ -96,10 +92,10 @@
  )
  ( /4FD34957 -R0805 R1 10k
   ( 1 /DMM_read )
-  ( 2 N-000014 )
+  ( 2 N-000016 )
  )
  ( /4FCB8F9C -R0805 R2 100k
-  ( 1 N-000017 )
+  ( 1 N-000006 )
   ( 2 GND )
  )
  ( /4FCBAB86 -R0805 R3 100k
@@ -111,7 +107,7 @@
   ( 2 GND )
  )
  ( /4FCC989A -R0603 RLED1 470R
-  ( 1 N-000005 )
+  ( 1 N-000003 )
   ( 2 /V_ref )
  )
  ( /4FCAAC0E MADW__power_resistor_5W RP1 100mOhm
@@ -124,17 +120,17 @@
  )
  ( /4FCAAFF5 MADW__trimmer_pot_horizontal RV1 100k
   ( 1 GND )
-  ( 2 N-000019 )
+  ( 2 N-000007 )
   ( 3 /DMM_read )
  )
  ( /4FCAB135 MADW__vishay_534_pot RV2 100k
   ( 1 GND )
-  ( 2 N-000016 )
+  ( 2 N-000018 )
   ( 3 /V_ref )
  )
  ( /4FCC9F44 MADW__pcb_side_switch SW1 SWITCH_INV
   ( 1 /VCC )
-  ( 2 N-000009 )
+  ( 2 N-000011 )
   ( 3 ? )
  )
  ( /4FCAAEA5 MADW__binding_post_4mm_6A T1 Binding_post
@@ -156,20 +152,20 @@
  )
  ( /4FCB8E48 -SO08 U2 LM2904
   ( 1 /DMM_read )
-  ( 2 N-000019 )
+  ( 2 N-000007 )
   ( 3 /source )
   ( 4 GND )
-  ( 5 N-000016 )
-  ( 6 N-000014 )
-  ( 7 N-000017 )
+  ( 5 N-000018 )
+  ( 6 N-000016 )
+  ( 7 N-000006 )
   ( 8 /VCC )
  )
  ( /4FDDBD08 SOT23-5 U3 TCM829
   ( 1 /V_neg )
   ( 2 /V_ref )
-  ( 3 N-000010 )
+  ( 3 N-000013 )
   ( 4 GND )
-  ( 5 N-000008 )
+  ( 5 N-000012 )
  )
 )
 *
@@ -208,16 +204,14 @@ $component C7
  C1-1
 $endlist
 $component C8
- CP*
  SM*
+ C?
+ C1-1
 $endlist
 $component C9
- CP*
  SM*
-$endlist
-$component C10
- CP*
- SM*
+ C?
+ C1-1
 $endlist
 $component D1
  LED-3MM
