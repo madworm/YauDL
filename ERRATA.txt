@@ -1,6 +1,14 @@
 V0.1:
 -----
 
+(6)	Instead of (5) add a 3V lithium cell to pull the gates
+	of the P-CH mosfets to -3V.
+
+	Cut the connection of R7 to GNDPWR and connect that end
+	of R7 to (-) of the cell. Connect (+) of the cell to
+	GNDPWR.
+
+
 (5)	If you require high current with input voltages below 5V,
 	the reverse polarity protection tends to heat up a lot.
 
