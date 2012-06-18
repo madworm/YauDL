@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 18 Jun 2012 02:50:35 PM CEST
+EESchema Schematic File Version 2  date Mon 18 Jun 2012 09:56:37 PM CEST
 LIBS:my_parts
 LIBS:power
 LIBS:device
@@ -38,13 +38,28 @@ encoding utf-8
 Sheet 1 1
 Title "(Yet) (a)nother (u)seless (D)ummy (Load) - YauDL"
 Date "18 jun 2012"
-Rev "0.21"
+Rev "0.22"
 Comp "2012 - My 2muF - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L MADW__DIODESCH_TO-220 DS1
+U 1 1 4FDF6EA5
+P 5500 950
+F 0 "DS1" H 5500 1050 40  0000 C CNN
+F 1 "MBR1045" H 5500 850 40  0000 C CNN
+	1    5500 950 
+	1    0    0    -1  
+$EndComp
+Text Notes 5200 800  0    60   ~ 0
+(45V - 10A)
+Text Label 5100 950  2    60   ~ 0
+rp_prot
+Wire Wire Line
+	5300 950  5100 950 
 Wire Notes Line
 	7000 3100 550  3100
 Wire Notes Line
@@ -83,20 +98,20 @@ Wire Notes Line
 	550  4350 550  3150
 Wire Wire Line
 	1750 4050 1750 4150
-Connection ~ 9250 2400
-Connection ~ 9250 2600
+Connection ~ 7650 2400
+Connection ~ 7650 2600
 Wire Wire Line
-	9250 2400 9250 2600
-Connection ~ 9250 3200
-Connection ~ 9250 3400
+	7650 2400 7650 2600
+Connection ~ 7650 3200
+Connection ~ 7650 3400
 Wire Wire Line
-	9250 3200 9250 3400
+	7650 3200 7650 3400
 Wire Notes Line
-	9800 3650 9800 2000
+	8200 3650 8200 2000
 Wire Notes Line
-	9800 3650 8650 3650
+	8200 3650 7050 3650
 Wire Notes Line
-	8650 3650 8650 2000
+	7050 3650 7050 2000
 Wire Wire Line
 	3350 1750 3600 1750
 Wire Wire Line
@@ -124,10 +139,6 @@ Wire Wire Line
 Connection ~ 850  2400
 Wire Wire Line
 	850  2400 1400 2400
-Wire Notes Line
-	7050 2000 8600 2000
-Wire Wire Line
-	7550 3750 7650 3750
 Connection ~ 7800 1100
 Wire Wire Line
 	7850 1100 7800 1100
@@ -138,38 +149,16 @@ Wire Wire Line
 Wire Wire Line
 	5100 3750 5100 3800
 Wire Wire Line
-	10300 2400 10450 2400
+	8700 2400 8850 2400
 Wire Wire Line
-	10650 2700 10650 2650
+	9050 2700 9050 2650
 Wire Wire Line
-	10650 2650 10300 2650
+	9050 2650 8700 2650
 Connection ~ 8650 1550
 Wire Wire Line
 	8650 1550 8950 1550
-Wire Wire Line
-	8150 2850 8050 2850
-Wire Wire Line
-	8050 2850 8050 2700
 Wire Notes Line
-	8650 2000 9800 2000
-Connection ~ 7500 2850
-Wire Wire Line
-	7250 2750 7250 2700
-Wire Wire Line
-	7500 2700 7500 2850
-Wire Wire Line
-	8050 2350 8150 2350
-Connection ~ 8150 2450
-Wire Wire Line
-	8150 2350 8150 2450
-Wire Wire Line
-	7250 3250 7250 3300
-Wire Wire Line
-	8450 2550 8450 2450
-Wire Wire Line
-	8450 2450 7900 2450
-Wire Wire Line
-	7900 2450 7900 2550
+	7050 2000 8200 2000
 Wire Wire Line
 	9700 850  9600 850 
 Wire Wire Line
@@ -177,7 +166,7 @@ Wire Wire Line
 Wire Wire Line
 	8650 900  8650 1000
 Wire Wire Line
-	9350 2400 9100 2400
+	7750 2400 7500 2400
 Wire Notes Line
 	550  550  550  3100
 Wire Wire Line
@@ -213,46 +202,21 @@ Wire Wire Line
 Wire Wire Line
 	2350 1300 2350 1400
 Wire Wire Line
-	6300 950  6400 950 
+	6400 1200 6400 950 
 Wire Wire Line
-	6400 950  6400 1200
+	7500 3400 7850 3400
 Wire Wire Line
-	9100 3400 9450 3400
-Wire Wire Line
-	9450 3400 9450 3450
+	7850 3400 7850 3450
 Wire Wire Line
 	9600 1650 9600 1750
-Wire Wire Line
-	7900 3050 8450 3050
-Wire Wire Line
-	8450 3050 8450 2950
-Wire Wire Line
-	8150 3050 8150 3200
-Connection ~ 8150 3050
-Wire Wire Line
-	8150 3200 8250 3200
-Wire Wire Line
-	7900 2950 7900 3200
-Wire Wire Line
-	7900 3200 7850 3200
-Connection ~ 7900 3050
-Wire Wire Line
-	7450 3200 7400 3200
-Wire Wire Line
-	7400 3200 7400 2850
-Wire Wire Line
-	7400 2850 7600 2850
-Connection ~ 7500 2700
-Wire Wire Line
-	7250 2700 8050 2700
 Wire Notes Line
-	9850 2850 9850 2000
+	8250 2850 8250 2000
 Wire Notes Line
-	9850 2850 11000 2850
+	8250 2850 9400 2850
 Wire Notes Line
-	11000 2850 11000 2000
+	9400 2850 9400 2000
 Wire Notes Line
-	11000 2000 9850 2000
+	9400 2000 8250 2000
 Wire Notes Line
 	7050 550  7050 1950
 Wire Notes Line
@@ -273,14 +237,6 @@ Connection ~ 7800 1200
 Wire Wire Line
 	7800 1000 7800 1400
 Connection ~ 7800 1300
-Wire Wire Line
-	8150 3750 8250 3750
-Wire Notes Line
-	7050 2000 7050 3950
-Wire Notes Line
-	7050 3950 8600 3950
-Wire Notes Line
-	8600 3950 8600 2000
 Wire Wire Line
 	850  1900 850  2700
 Connection ~ 2300 1750
@@ -312,17 +268,17 @@ Wire Wire Line
 Wire Wire Line
 	2200 1750 2850 1750
 Wire Wire Line
-	9050 3100 9050 3200
+	7450 3100 7450 3200
 Wire Wire Line
-	9050 3200 9400 3200
+	7450 3200 7800 3200
 Wire Wire Line
-	9400 3200 9400 3100
+	7800 3200 7800 3100
 Wire Wire Line
-	9050 2700 9050 2600
+	7450 2700 7450 2600
 Wire Wire Line
-	9050 2600 9400 2600
+	7450 2600 7800 2600
 Wire Wire Line
-	9400 2600 9400 2700
+	7800 2600 7800 2700
 Wire Notes Line
 	4400 4350 4400 3150
 Wire Notes Line
@@ -382,6 +338,8 @@ Wire Wire Line
 	700  1600 700  2850
 Wire Wire Line
 	700  2850 5800 2850
+Wire Wire Line
+	6400 950  5750 950 
 $Comp
 L MADW__IRLZ34N Q1
 U 1 1 4FCAAD34
@@ -392,19 +350,19 @@ F 1 "IRL3803" H 6200 2100 60  0000 R CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L R R4
 U 1 1 4FDF225C
 P 5400 1800
-F 0 "R5" V 5480 1800 50  0000 C CNN
+F 0 "R4" V 5480 1800 50  0000 C CNN
 F 1 "100R" V 5400 1800 50  0000 C CNN
 	1    5400 1800
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R4
+L R R3
 U 1 1 4FDF221F
 P 5400 1600
-F 0 "R4" V 5480 1600 50  0000 C CNN
+F 0 "R3" V 5480 1600 50  0000 C CNN
 F 1 "100R" V 5400 1600 50  0000 C CNN
 	1    5400 1600
 	0    -1   -1   0   
@@ -455,19 +413,19 @@ Text Notes 3600 4300 0    60   ~ 0
 $Comp
 L C C7
 U 1 1 4FD8C782
-P 9400 2900
-F 0 "C7" H 9450 3000 50  0000 L CNN
-F 1 "10µF" H 9450 2800 50  0000 L CNN
-	1    9400 2900
+P 7800 2900
+F 0 "C7" H 7850 3000 50  0000 L CNN
+F 1 "10µF" H 7850 2800 50  0000 L CNN
+	1    7800 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C6
 U 1 1 4FD8C77E
-P 9050 2900
-F 0 "C6" H 9100 3000 50  0000 L CNN
-F 1 "10µF" H 9100 2800 50  0000 L CNN
-	1    9050 2900
+P 7450 2900
+F 0 "C6" H 7500 3000 50  0000 L CNN
+F 1 "10µF" H 7500 2800 50  0000 L CNN
+	1    7450 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -498,30 +456,6 @@ F 0 "C4" V 4100 2350 50  0000 L CNN
 F 1 "100nF" V 4100 1950 50  0000 L CNN
 	1    4200 2250
 	0    -1   -1   0   
-$EndComp
-Text Label 7550 3750 2    60   ~ 0
-rp_prot
-Text Label 8250 3750 0    60   ~ 0
-drain
-Text Notes 7750 3650 0    60   ~ 0
-override
-$Comp
-L CONN_1 JP2
-U 1 1 4FCF5BC9
-P 8000 3750
-F 0 "JP2" H 7950 3850 40  0000 L CNN
-F 1 "CONN_1" H 8000 3805 30  0001 C CNN
-	1    8000 3750
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_1 JP1
-U 1 1 4FCF5BC5
-P 7800 3750
-F 0 "JP1" H 7750 3650 40  0000 L CNN
-F 1 "CONN_1" H 7800 3805 30  0001 C CNN
-	1    7800 3750
-	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR03
@@ -591,15 +525,6 @@ F 1 "GND" H 4950 2630 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR06
-U 1 1 4FCC5126
-P 7250 3300
-F 0 "#PWR06" H 7250 3350 40  0001 C CNN
-F 1 "GNDPWR" H 7250 3220 40  0000 C CNN
-	1    7250 3300
-	1    0    0    -1  
-$EndComp
-$Comp
 L TS2940 U1
 U 1 1 4FCC3B47
 P 3250 3750
@@ -619,61 +544,50 @@ F 1 "100nF" V 1500 2100 50  0000 L CNN
 	1    1600 2400
 	0    -1   -1   0   
 $EndComp
-$Comp
-L MADW__ZENER_SOT23 DZ1
-U 1 1 4FCBD6DF
-P 7650 3200
-F 0 "DZ1" H 7650 3300 50  0000 C CNN
-F 1 "BZX84C-10" H 7650 3100 40  0000 C CNN
-	1    7650 3200
-	1    0    0    -1  
-$EndComp
 Text Label 6400 2050 0    60   ~ 0
 source
 Text Notes 6100 2450 1    60   ~ 0
 (5W)
-Text Notes 7150 2150 0    60   ~ 0
-DUT reverse polarity protection
-Text Notes 10150 2200 0    60   ~ 0
+Text Notes 8550 2200 0    60   ~ 0
 DMM output
-Text Label 10450 2400 0    60   ~ 0
+Text Label 8850 2400 0    60   ~ 0
 DMM_read
 Text Label 2700 1650 2    60   ~ 0
 DMM_read
 Text Notes 3050 800  0    60   ~ 0
 (10-turn Pot.)\n
 $Comp
-L GND #PWR07
+L GND #PWR06
 U 1 1 4FCBC304
-P 10650 2700
-F 0 "#PWR07" H 10650 2700 30  0001 C CNN
-F 1 "GND" H 10650 2630 30  0001 C CNN
-	1    10650 2700
+P 9050 2700
+F 0 "#PWR06" H 9050 2700 30  0001 C CNN
+F 1 "GND" H 9050 2630 30  0001 C CNN
+	1    9050 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_1 T4
 U 1 1 4FCBC2C8
-P 10150 2650
-F 0 "T4" H 10230 2650 40  0000 L CNN
-F 1 "Binding post" H 10150 2750 30  0000 C CNN
-	1    10150 2650
+P 8550 2650
+F 0 "T4" H 8630 2650 40  0000 L CNN
+F 1 "Binding post" H 8550 2750 30  0000 C CNN
+	1    8550 2650
 	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_1 T3
 U 1 1 4FCBC2C4
-P 10150 2400
-F 0 "T3" H 10230 2400 40  0000 L CNN
-F 1 "Binding post" H 10150 2500 30  0000 C CNN
-	1    10150 2400
+P 8550 2400
+F 0 "T3" H 8630 2400 40  0000 L CNN
+F 1 "Binding post" H 8550 2500 30  0000 C CNN
+	1    8550 2400
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR08
+L GND #PWR07
 U 1 1 4FCBB218
 P 1750 4150
-F 0 "#PWR08" H 1750 4150 30  0001 C CNN
+F 0 "#PWR07" H 1750 4150 30  0001 C CNN
 F 1 "GND" H 1750 4080 30  0001 C CNN
 	1    1750 4150
 	1    0    0    -1  
@@ -688,43 +602,12 @@ F 1 "9V battery" H 1300 3860 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG09
+L PWR_FLAG #FLG08
 U 1 1 4FCBB1DF
 P 8950 1550
-F 0 "#FLG09" H 8950 1645 30  0001 C CNN
+F 0 "#FLG08" H 8950 1645 30  0001 C CNN
 F 1 "PWR_FLAG" H 8950 1730 30  0000 C CNN
 	1    8950 1550
-	1    0    0    -1  
-$EndComp
-Text Label 8050 2350 2    60   ~ 0
-rp_prot
-Text Label 8250 3200 0    60   ~ 0
-drain
-$Comp
-L R R3
-U 1 1 4FCBAB86
-P 7250 3000
-F 0 "R3" V 7150 3000 50  0000 C CNN
-F 1 "100k" V 7250 3000 50  0000 C CNN
-	1    7250 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L MOSFET_P Q4
-U 1 1 4FCBA9E5
-P 8150 2850
-F 0 "Q4" H 8350 3140 60  0000 R CNN
-F 1 "AO3401" H 8350 2750 60  0000 R CNN
-	1    8150 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L MOSFET_P Q3
-U 1 1 4FCBA9E1
-P 7600 2850
-F 0 "Q3" H 7800 3140 60  0000 R CNN
-F 1 "AO3401" H 7800 2750 60  0000 R CNN
-	1    7600 2850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -741,10 +624,10 @@ Text Notes 4000 3500 0    60   ~ 0
 Text Label 9700 850  0    60   ~ 0
 VCC
 $Comp
-L GND #PWR010
+L GND #PWR09
 U 1 1 4FCB8E65
 P 9600 1750
-F 0 "#PWR010" H 9600 1750 30  0001 C CNN
+F 0 "#PWR09" H 9600 1750 30  0001 C CNN
 F 1 "GND" H 9600 1680 30  0001 C CNN
 	1    9600 1750
 	1    0    0    -1  
@@ -767,7 +650,7 @@ F 1 "0R" V 8650 1250 50  0000 C CNN
 	1    8650 1250
 	-1   0    0    1   
 $EndComp
-Text Label 9350 2400 0    60   ~ 0
+Text Label 7750 2400 0    60   ~ 0
 rp_prot
 $Comp
 L CONN_1 MH4
@@ -788,10 +671,10 @@ F 1 "CONN_1" H 8000 1155 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L GND #PWR010
 U 1 1 4FCAB37C
 P 2350 1400
-F 0 "#PWR011" H 2350 1400 30  0001 C CNN
+F 0 "#PWR010" H 2350 1400 30  0001 C CNN
 F 1 "GND" H 2350 1330 30  0001 C CNN
 	1    2350 1400
 	1    0    0    -1  
@@ -801,10 +684,10 @@ V_ref
 Text Notes 4600 1450 0    60   ~ 0
 (FOLLOW)
 $Comp
-L GND #PWR012
+L GND #PWR011
 U 1 1 4FCAB308
 P 2700 2700
-F 0 "#PWR012" H 2700 2700 30  0001 C CNN
+F 0 "#PWR011" H 2700 2700 30  0001 C CNN
 F 1 "GND" H 2700 2630 30  0001 C CNN
 	1    2700 2700
 	1    0    0    -1  
@@ -833,33 +716,33 @@ F 1 "100k" H 2700 2250 50  0000 C CNN
 $EndComp
 Text Label 6300 950  2    60   ~ 0
 drain
-Text Notes 8900 2250 0    60   ~ 0
+Text Notes 7300 2250 0    60   ~ 0
 DUT input
 $Comp
-L GNDPWR #PWR013
+L GNDPWR #PWR012
 U 1 1 4FCAAEF1
-P 9450 3450
-F 0 "#PWR013" H 9450 3500 40  0001 C CNN
-F 1 "GNDPWR" H 9450 3370 40  0000 C CNN
-	1    9450 3450
+P 7850 3450
+F 0 "#PWR012" H 7850 3500 40  0001 C CNN
+F 1 "GNDPWR" H 7850 3370 40  0000 C CNN
+	1    7850 3450
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_1 T1
 U 1 1 4FCAAEA5
-P 8950 2400
-F 0 "T1" H 9030 2400 40  0000 L CNN
-F 1 "Binding post" H 8950 2500 30  0000 C CNN
-	1    8950 2400
+P 7350 2400
+F 0 "T1" H 7430 2400 40  0000 L CNN
+F 1 "Binding post" H 7350 2500 30  0000 C CNN
+	1    7350 2400
 	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_1 T2
 U 1 1 4FCAAEA2
-P 8950 3400
-F 0 "T2" H 9030 3400 40  0000 L CNN
-F 1 "Binding post" H 8950 3500 30  0000 C CNN
-	1    8950 3400
+P 7350 3400
+F 0 "T2" H 7430 3400 40  0000 L CNN
+F 1 "Binding post" H 7350 3500 30  0000 C CNN
+	1    7350 3400
 	-1   0    0    1   
 $EndComp
 NoConn ~ 7550 1400
@@ -874,28 +757,28 @@ F 1 "IRL3803" H 6900 2100 60  0000 R CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L GND #PWR013
 U 1 1 4FCAAC75
 P 8650 900
-F 0 "#PWR014" H 8650 900 30  0001 C CNN
+F 0 "#PWR013" H 8650 900 30  0001 C CNN
 F 1 "GND" H 8650 830 30  0001 C CNN
 	1    8650 900 
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDPWR #PWR015
+L GNDPWR #PWR014
 U 1 1 4FCAAC73
 P 8650 1600
-F 0 "#PWR015" H 8650 1650 40  0001 C CNN
+F 0 "#PWR014" H 8650 1650 40  0001 C CNN
 F 1 "GNDPWR" H 8650 1520 40  0000 C CNN
 	1    8650 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR016
+L GNDPWR #PWR015
 U 1 1 4FCAAC54
 P 6400 2850
-F 0 "#PWR016" H 6400 2900 40  0001 C CNN
+F 0 "#PWR015" H 6400 2900 40  0001 C CNN
 F 1 "GNDPWR" H 6400 2770 40  0000 C CNN
 	1    6400 2850
 	1    0    0    -1  
@@ -950,10 +833,10 @@ V_ref
 Text Label 2700 3500 2    60   ~ 0
 VCC
 $Comp
-L GND #PWR017
+L GND #PWR016
 U 1 1 4FCAAA71
 P 3250 4200
-F 0 "#PWR017" H 3250 4200 30  0001 C CNN
+F 0 "#PWR016" H 3250 4200 30  0001 C CNN
 F 1 "GND" H 3250 4130 30  0001 C CNN
 	1    3250 4200
 	1    0    0    -1  

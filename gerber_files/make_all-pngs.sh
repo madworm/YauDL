@@ -17,3 +17,4 @@ gerbv -p $file -o $OUTFILE --dpi=300x300 -a --export=png
 done
 
 mv *.png ./PNGs
+gwenview ./PNGs/* &
