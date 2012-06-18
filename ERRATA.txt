@@ -1,6 +1,11 @@
 V0.1:
 -----
 
+(6)	Replace the MOSFET based RPP with a single Schottky Diode:
+	MBR1045 - TO-220 package. 45V, 10A. Forward voltage of 
+	0.5V at 5A --> 2.5W. Should survive without a large HS.
+
+
 (5)	If you require high current with input voltages below 5V,
 	the reverse polarity protection tends to heat up a lot.
 
