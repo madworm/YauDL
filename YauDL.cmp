@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le Thu 21 Jun 2012 03:00:39 PM CEST
+Cmp-Mod V01 Genere par PcbNew le Thu 21 Jun 2012 03:38:30 PM CEST
 
 BeginCmp
 TimeStamp = /4FCBB1F6;
@@ -186,14 +186,14 @@ BeginCmp
 TimeStamp = /4FE30649;
 Reference = R6;
 ValeurCmp = 30k-0.1%;
-IdModule  = -R0805;
+IdModule  = R5;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FE30646;
 Reference = R7;
 ValeurCmp = 10k-0.1%;
-IdModule  = -R0805;
+IdModule  = R5;
 EndCmp
 
 BeginCmp

@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Thu 21 Jun 2012 02:59:47 PM CEST
+# EESchema Netlist Version 1.1 created  Thu 21 Jun 2012 03:37:57 PM CEST
 (
  ( /4FCBB1F6 MADW__9V_battery_with_clip BT1 9V_battery
   ( 1 N-000017 )
@@ -105,11 +105,11 @@
   ( 1 /I_DUT )
   ( 2 N-000013 )
  )
- ( /4FE30649 -R0805 R6 30k-0.1%
+ ( /4FE30649 R5 R6 30k-0.1%
   ( 1 N-000022 )
   ( 2 /V_DUT )
  )
- ( /4FE30646 -R0805 R7 10k-0.1%
+ ( /4FE30646 R5 R7 10k-0.1%
   ( 1 N-000022 )
   ( 2 GND )
  )
