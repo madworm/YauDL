@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Mon 18 Jun 2012 09:57:13 PM CEST
+Cmp-Mod V01 Genere par PcbNew le Thu 21 Jun 2012 03:00:39 PM CEST
 
 BeginCmp
 TimeStamp = /4FCBB1F6;
@@ -71,10 +71,31 @@ IdModule  = MADW__TO220_V;
 EndCmp
 
 BeginCmp
+TimeStamp = /4FE30C9E;
+Reference = DZ1;
+ValeurCmp = BZX84C_5V1;
+IdModule  = -SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE31969;
+Reference = DZ2;
+ValeurCmp = BZX84C_5V1;
+IdModule  = -SOT23;
+EndCmp
+
+BeginCmp
 TimeStamp = /4FDDFB73;
 Reference = HS1;
 ValeurCmp = HEATSINK;
 IdModule  = MADW__heatsink-TO220-94x45x30_2_m-holes;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE2F5EF;
+Reference = JP1;
+ValeurCmp = REMOTE_CTRL;
+IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
@@ -103,6 +124,13 @@ TimeStamp = /4FCAB4A6;
 Reference = MH4;
 ValeurCmp = CONN_1;
 IdModule  = MADW__mounting_hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE2F4D3;
+Reference = P1;
+ValeurCmp = REMOTE;
+IdModule  = SIL-4;
 EndCmp
 
 BeginCmp
@@ -144,6 +172,27 @@ BeginCmp
 TimeStamp = /4FDF225C;
 Reference = R4;
 ValeurCmp = 100R;
+IdModule  = -R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE2F439;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = -R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE30649;
+Reference = R6;
+ValeurCmp = 30k-0.1%;
+IdModule  = -R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FE30646;
+Reference = R7;
+ValeurCmp = 10k-0.1%;
 IdModule  = -R0805;
 EndCmp
 
