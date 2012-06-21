@@ -18,8 +18,8 @@ V1.00 BOM:
 * 2x 10k resistor, 0805
 * 1x 100k resistor, 0805
 
-* 1x 10k resistor, 0805, 0.1%
-* 1x 30k resistor, 0805, 0.1%
+* 1x 10k resistor, through-hole, 0.1%
+* 1x 30k resistor, through-hole, 0.1%
 
 * 2x 100nF ceramic capacitor, 0805
 * 2x 10µF TANTALUM capacitor, 1206
