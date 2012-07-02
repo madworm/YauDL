@@ -1,3 +1,13 @@
+V1.00:
+------
+
+(1)	Don't populate C5. It interferes with the cable tie.
+
+(2)	Make sure the 'I_SET' jumper is 100% FLUSH on the bottom
+	of the circuit board, so it doesn't interfere with the
+	battery. Add 1 layer of tesa-strip around the battery for
+	additional insulation in that area.
+
 V0.1:
 -----
 
