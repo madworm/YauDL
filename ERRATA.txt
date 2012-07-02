@@ -8,6 +8,17 @@ V1.00:
 	battery. Add 1 layer of tesa-strip around the battery for
 	additional insulation in that area.
 
+(3)	TS2940CW50 - voltage regulator unstable _again_
+	
+	Change LED resistor (RLED1) to allow for 10mA of current.
+
+(4)	The BZX84C-5V1 Zener diodes open too early and clip at
+	about 4.50V instead of slightly above 5V. This limits the
+	usable input voltage range to about 0-18V-ish. They should
+	be replaced with 5V6 ones. The input-protection diodes of
+	a 5V tolerant microcontroller should do the rest.
+
+
 V0.1:
 -----
 
