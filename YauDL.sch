@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 21 Jun 2012 02:59:50 PM CEST
+EESchema Schematic File Version 2  date Thu 05 Jul 2012 03:16:56 PM CEST
 LIBS:my_parts
 LIBS:power
 LIBS:device
@@ -37,8 +37,8 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "(Yet) (a)nother (u)seless (D)ummy (Load) - YauDL"
-Date "21 jun 2012"
-Rev "1.00"
+Date "5 jul 2012"
+Rev "1.01"
 Comp "2012 - My 2muF - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -403,7 +403,7 @@ L MADW__ZENER_SOT23 DZ2
 U 1 1 4FE31969
 P 8200 2600
 F 0 "DZ2" H 8200 2700 50  0000 C CNN
-F 1 "BZX84C_5V1" H 8200 2500 40  0000 C CNN
+F 1 "BZX84C_5V6" H 8200 2500 40  0000 C CNN
 	1    8200 2600
 	0    -1   -1   0   
 $EndComp
@@ -412,7 +412,7 @@ L MADW__ZENER_SOT23 DZ1
 U 1 1 4FE30C9E
 P 9200 2600
 F 0 "DZ1" H 9200 2700 50  0000 C CNN
-F 1 "BZX84C_5V1" H 9200 2500 40  0000 C CNN
+F 1 "BZX84C_5V6" H 9200 2500 40  0000 C CNN
 	1    9200 2600
 	0    1    1    0   
 $EndComp
@@ -682,7 +682,7 @@ L R RLED1
 U 1 1 4FCC989A
 P 4800 3550
 F 0 "RLED1" V 4900 3550 50  0000 C CNN
-F 1 "470R" V 4800 3550 50  0000 C CNN
+F 1 "300R" V 4800 3550 50  0000 C CNN
 	1    4800 3550
 	1    0    0    -1  
 $EndComp

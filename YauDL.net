@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Thu 21 Jun 2012 03:37:57 PM CEST
+# EESchema Netlist Version 1.1 created  Thu 05 Jul 2012 03:18:09 PM CEST
 (
  ( /4FCBB1F6 MADW__9V_battery_with_clip BT1 9V_battery
   ( 1 N-000017 )
@@ -40,11 +40,11 @@
   ( 1 /drain )
   ( 3 /V_DUT )
  )
- ( /4FE30C9E -SOT23 DZ1 BZX84C_5V1
+ ( /4FE30C9E -SOT23 DZ1 BZX84C_5V6
   ( 1 GND )
   ( 3 N-000022 )
  )
- ( /4FE31969 -SOT23 DZ2 BZX84C_5V1
+ ( /4FE31969 -SOT23 DZ2 BZX84C_5V6
   ( 1 GND )
   ( 3 /I_DUT )
  )
@@ -117,7 +117,7 @@
   ( 1 GNDPWR )
   ( 2 GND )
  )
- ( /4FCC989A -R0603 RLED1 470R
+ ( /4FCC989A -R0603 RLED1 300R
   ( 1 N-000006 )
   ( 2 /V_ref )
  )
