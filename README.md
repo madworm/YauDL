@@ -21,3 +21,10 @@ to a useful value (1V --> 1A), the second opamp will be wired in the usual
 follower setup driving the MOSFET(s). I don't want to use a 1R sense resistor,
 as this causes the device to need at least 5V for 5A. I'm aiming at something
 lower.
+
+
+---
+
+Before having PC-boards made, please make sure you know about your manufacturer's peculiarities!
+Especially drill-sizes and their tolerances may vary too much and give you trouble.
+
