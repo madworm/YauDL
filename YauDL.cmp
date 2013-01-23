@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Thu 05 Jul 2012 03:18:09 PM CEST
+Cmp-Mod V01 Created by PcbNew date = Wed 23 Jan 2013 02:10:17 PM CET
 
 BeginCmp
 TimeStamp = /4FCBB1F6;
@@ -95,7 +95,7 @@ BeginCmp
 TimeStamp = /4FE2F5EF;
 Reference = JP1;
 ValeurCmp = REMOTE_CTRL;
-IdModule  = SIL-3;
+IdModule  = MADW__SIL-3;
 EndCmp
 
 BeginCmp
@@ -130,7 +130,7 @@ BeginCmp
 TimeStamp = /4FE2F4D3;
 Reference = P1;
 ValeurCmp = REMOTE;
-IdModule  = SIL-4;
+IdModule  = MADW__SIL-4;
 EndCmp
 
 BeginCmp
