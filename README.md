@@ -22,6 +22,8 @@ follower setup driving the MOSFET(s). I don't want to use a 1R sense resistor,
 as this causes the device to need at least 5V for 5A. I'm aiming at something
 lower.
 
+BTW. It is strictly for DC input voltages.
+
 
 ---
 
