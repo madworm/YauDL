@@ -1,4 +1,4 @@
-(kicad_pcb (version 3) (host pcbnew "(2013-06-27 BZR 4227)-testing")
+(kicad_pcb (version 3) (host pcbnew "(2013-09-16 BZR 4319)-product")
 
   (general
     (links 68)
@@ -59,7 +59,7 @@
     (pad_drill 1.016)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFFBF)
+    (visible_elements FFFFFFFF)
     (pcbplotparams
       (layerselection 351305729)
       (usegerberextensions true)
@@ -259,13 +259,12 @@
     )
   )
 
-  (module LOGO (layer Front) (tedit 4FE11F84) (tstamp 4FE11F54)
+  (module CHINESE_ORDER_NUMBER (layer Front) (tedit 523830FA) (tstamp 4FE11F54)
     (at 124.968 59.69)
-    (path LOGO)
     (fp_text reference G7 (at 0 2.51968) (layer F.SilkS) hide
       (effects (font (size 0.43942 0.43942) (thickness 0.08636)))
     )
-    (fp_text value LOGO (at 0 -2.51968) (layer F.SilkS) hide
+    (fp_text value CHINESE_ORDER_NUMBER (at 0 -2.51968) (layer F.SilkS) hide
       (effects (font (size 0.43942 0.43942) (thickness 0.08636)))
     )
     (fp_poly (pts (xy 12.52728 2.2987) (xy 12.28344 2.2987) (xy 12.28344 2.05486) (xy 12.28344 -2.05486)
@@ -399,13 +398,12 @@
       (xy -10.56894 -0.78232)) (layer F.SilkS) (width 0.00254))
   )
 
-  (module LOGO (layer Front) (tedit 4FE11F95) (tstamp 4FE11F52)
+  (module CHINESE_ORDER_NUMBER (layer Front) (tedit 52383104) (tstamp 4FE11F52)
     (at 165.1 59.69)
-    (path LOGO)
     (fp_text reference G8 (at 0 2.51968) (layer F.SilkS) hide
       (effects (font (size 0.43942 0.43942) (thickness 0.08636)))
     )
-    (fp_text value LOGO (at 0 -2.51968) (layer F.SilkS) hide
+    (fp_text value CHINESE_ORDER_NUMBER (at 0 -2.51968) (layer F.SilkS) hide
       (effects (font (size 0.43942 0.43942) (thickness 0.08636)))
     )
     (fp_poly (pts (xy 12.52728 2.2987) (xy 12.28344 2.2987) (xy 12.28344 2.05486) (xy 12.28344 -2.05486)
@@ -539,12 +537,12 @@
       (xy -10.56894 -0.78232)) (layer F.SilkS) (width 0.00254))
   )
 
-  (module "" (layer Front) (tedit 4FE0EAEF) (tstamp 4FE0EAE6)
+  (module OSHW_LOGO (layer Front) (tedit 5238313B) (tstamp 4FE0EAE6)
     (at 175.00092 38.99916)
     (fp_text reference G3 (at 0 4.72186) (layer F.SilkS) hide
       (effects (font (size 0.4064 0.4064) (thickness 0.08128)))
     )
-    (fp_text value LOGO (at 0 -4.72186) (layer F.SilkS) hide
+    (fp_text value OSHW_LOGO (at 0 -4.72186) (layer F.SilkS) hide
       (effects (font (size 0.4064 0.4064) (thickness 0.08128)))
     )
     (fp_poly (pts (xy -2.69748 3.99796) (xy -2.65176 3.9751) (xy -2.54762 3.90906) (xy -2.39776 3.81254)
@@ -619,12 +617,12 @@
       (xy -2.69748 3.99796)) (layer F.SilkS) (width 0.00254))
   )
 
-  (module "" (layer Back) (tedit 4FE0EAF6) (tstamp 4FE0EAE4)
+  (module OSHW_LOGO (layer Back) (tedit 523830E2) (tstamp 4FE0EAE4)
     (at 175.00092 38.99916)
     (fp_text reference G4 (at 0 -4.72186) (layer B.SilkS) hide
       (effects (font (size 0.4064 0.4064) (thickness 0.08128)) (justify mirror))
     )
-    (fp_text value LOGO (at 0 4.72186) (layer B.SilkS) hide
+    (fp_text value OSHW_LOGO (at 0 4.72186) (layer B.SilkS) hide
       (effects (font (size 0.4064 0.4064) (thickness 0.08128)) (justify mirror))
     )
     (fp_poly (pts (xy -2.69748 3.99796) (xy -2.65176 3.9751) (xy -2.54762 3.90906) (xy -2.39776 3.81254)
@@ -800,13 +798,12 @@
     )
   )
 
-  (module LOGO (layer Front) (tedit 4FDE34FC) (tstamp 4FDE34E5)
+  (module FIRE (layer Front) (tedit 523830E8) (tstamp 4FDE34E5)
     (at 186.055 49.911)
-    (path LOGO)
     (fp_text reference G6 (at 0 4.2164) (layer F.SilkS) hide
       (effects (font (size 0.14224 0.14224) (thickness 0.02794)))
     )
-    (fp_text value LOGO (at 0 -4.2164) (layer F.SilkS) hide
+    (fp_text value FIRE (at 0 -4.2164) (layer F.SilkS) hide
       (effects (font (size 0.14224 0.14224) (thickness 0.02794)))
     )
     (fp_poly (pts (xy 3.00228 0.6096) (xy 3.00228 0.61976) (xy 2.99974 0.64008) (xy 2.99212 0.67056)
@@ -977,13 +974,12 @@
       (xy 2.99974 0.6096) (xy 3.00228 0.6096) (xy 3.00228 0.6096)) (layer F.SilkS) (width 0.00254))
   )
 
-  (module LOGO (layer Front) (tedit 4FDE34F7) (tstamp 4FDE3489)
+  (module FIRE (layer Front) (tedit 523830CE) (tstamp 4FDE3489)
     (at 104.14 50.038)
-    (path LOGO)
     (fp_text reference G5 (at 0 4.2164) (layer F.SilkS) hide
       (effects (font (size 0.14224 0.14224) (thickness 0.02794)))
     )
-    (fp_text value LOGO (at 0 -4.2164) (layer F.SilkS) hide
+    (fp_text value FIRE (at 0 -4.2164) (layer F.SilkS) hide
       (effects (font (size 0.14224 0.14224) (thickness 0.02794)))
     )
     (fp_poly (pts (xy 3.00228 0.6096) (xy 3.00228 0.61976) (xy 2.99974 0.64008) (xy 2.99212 0.67056)
@@ -1154,13 +1150,12 @@
       (xy 2.99974 0.6096) (xy 3.00228 0.6096) (xy 3.00228 0.6096)) (layer F.SilkS) (width 0.00254))
   )
 
-  (module LOGO (layer Back) (tedit 4FD0ABBB) (tstamp 4FD0ABA2)
+  (module LED_SMILE (layer Back) (tedit 523830D6) (tstamp 4FD0ABA2)
     (at 115.00104 38.99916)
-    (path LOGO)
     (fp_text reference G2 (at 0 -4.58978) (layer B.SilkS) hide
       (effects (font (size 0.127 0.127) (thickness 0.02032)) (justify mirror))
     )
-    (fp_text value LOGO (at 0 4.58978) (layer B.SilkS) hide
+    (fp_text value LED_SMILE (at 0 4.58978) (layer B.SilkS) hide
       (effects (font (size 0.127 0.127) (thickness 0.02032)) (justify mirror))
     )
     (fp_poly (pts (xy 1.50368 3.48488) (xy 1.60274 3.47218) (xy 1.69672 3.4417) (xy 1.73736 3.41884)
@@ -1383,13 +1378,12 @@
       (xy 1.3081 -1.52654) (xy 1.40716 -1.4986) (xy 1.41732 -1.4986) (xy 1.51892 -1.49098)) (layer B.SilkS) (width 0.00254))
   )
 
-  (module LOGO (layer Front) (tedit 4FD0ABB6) (tstamp 4FD0ABA4)
+  (module LED_SMILE (layer Front) (tedit 52383160) (tstamp 4FD0ABA4)
     (at 115.00104 38.99916)
-    (path LOGO)
     (fp_text reference G1 (at 0 4.58978) (layer F.SilkS) hide
       (effects (font (size 0.127 0.127) (thickness 0.02032)))
     )
-    (fp_text value LOGO (at 0 -4.58978) (layer F.SilkS) hide
+    (fp_text value LED_SMILE (at 0 -4.58978) (layer F.SilkS) hide
       (effects (font (size 0.127 0.127) (thickness 0.02032)))
     )
     (fp_poly (pts (xy 1.50368 3.48488) (xy 1.60274 3.47218) (xy 1.69672 3.4417) (xy 1.73736 3.41884)
