@@ -575,7 +575,7 @@ F 1 "SWITCH_INV" H 1150 3400 50  0000 C CNN
 	1    1300 3550
 	1    0    0    -1  
 $EndComp
-Text Notes 4500 4050 0    60   ~ 0
+Text Notes 4500 4300 0    60   ~ 0
 pull some current\nfrom regulator to\nbe stable
 Text Notes 2450 4300 0    60   ~ 0
 (Tantalum!)
